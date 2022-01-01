@@ -1,5 +1,5 @@
 <template>
-    <span id="navbarCounter">Gates: {{ displayDaysLeft }} days</span>
+    <span id="navbarCounter">GATES: {{ displayDaysLeft }} days</span>
 </template>
 
 <script>

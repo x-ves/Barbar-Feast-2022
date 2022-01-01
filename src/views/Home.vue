@@ -6,7 +6,8 @@
         <base-card>
           <p>This section will include a counter until opening of gates. And a button to buy tickets.</p>
           <base-button>TICKETS</base-button>
-        </base-card></div>
+        </base-card>
+        </div>
     </section>
     <section class="news">
       <base-card>

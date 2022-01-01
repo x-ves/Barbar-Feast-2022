@@ -1,9 +1,12 @@
 <template>
     <nav class="nav">
-        <router-link class="nav--link" to="/">Home</router-link>
-        <span class="nav--link--separator"></span>
-        <router-link class="nav--link" to="/lineup">Lineup</router-link>
-        <base-button>TICKETS</base-button>
+        <div class="nav--backdrop" v-if="menuOpen" @click="toggleMenu"></div>
+        <div class="nav--links">
+            <router-link class="nav--link" to="/">Home</router-link>
+            <span class="nav--link--separator"></span>
+            <router-link class="nav--link" to="/lineup">Lineup</router-link>
+            <base-button>TICKETS</base-button>
+        </div>
         <NavbarCounter />
     </nav>
 </template>
@@ -22,6 +25,8 @@ export default {
     background: $secondary-background-color;
     width: 100%;
     padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
 
     &--link {
         padding: 0.5rem;

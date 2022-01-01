@@ -42,6 +42,19 @@ body {
   text-align: center;
 }
 
+::-webkit-scrollbar {
+  background: rgb(40, 40, 40);
+  width: 0.75rem;
+
+  &-thumb {
+    background: rgb(30, 30, 30);
+
+    &:hover {
+      background: rgb(25, 25, 25);
+    }
+  }
+}
+
 @media only screen and (min-width: 768px) {}
 
 @media only screen and (min-width: 1024px) {}
