@@ -2,14 +2,38 @@
   <section class="lineup">
     <h1>This is a lineup page</h1>
     <div class="lineup--cards">
-      <base-card>Band 1</base-card>
-      <base-card>Band 2</base-card>
-      <base-card>Band 3</base-card>
-      <base-card>Band 4</base-card>
-      <base-card>Band 5</base-card>
-      <base-card>Band 6</base-card>
-      <base-card>Band 7</base-card>
-      <base-card>Band 8</base-card>
+      <base-card>
+      <div class="lineup--img"></div>
+      <h3>Band 1</h3>
+      </base-card>
+      <base-card>
+      <div class="lineup--img"></div>
+      <h3>Band 2</h3>
+      </base-card>
+      <base-card>
+      <div class="lineup--img"></div>
+      <h3>Band 3</h3>
+      </base-card>
+      <base-card>
+      <div class="lineup--img"></div>
+      <h3>Band 4</h3>
+      </base-card>
+      <base-card>
+      <div class="lineup--img"></div>
+      <h3>Band 5</h3>
+      </base-card>
+      <base-card>
+      <div class="lineup--img"></div>
+      <h3>Band 6</h3>
+      </base-card>
+      <base-card>
+      <div class="lineup--img"></div>
+      <h3>Band 7</h3>
+      </base-card>
+      <base-card>
+      <div class="lineup--img"></div>
+      <h3>Band 8</h3>
+      </base-card>
     </div>
   </section>
 </template>
@@ -23,6 +47,16 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+
+      .baseCard {
+        padding: 0;
+      }
+    }
+
+    &--img {
+      width: 300px;
+      height: 200px;
+      background: $main-background-color;
     }
   }
 </style>

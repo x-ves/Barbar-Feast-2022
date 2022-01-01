@@ -29,6 +29,9 @@ export default {
 body {
   margin: 0;
   padding: 0;
+  background: $main-background-color;
+  color: $main-text-color;
+  font-size: $main-font-size;
 }
 
 #app {
@@ -37,9 +40,6 @@ body {
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
-  color: $main-text-color;
-  background: $main-background-color;
-  font-size: $main-font-size;
 }
 
 @media only screen and (min-width: 768px) {}

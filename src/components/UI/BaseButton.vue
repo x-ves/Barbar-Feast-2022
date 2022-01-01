@@ -5,9 +5,14 @@
 <style lang="scss" scoped>
 button {
     color: $main-text-color;
-    background: $main-background-color;
+    background: transparent;
     padding: 0.5rem;
-    font-size: $heading-font-size;
+    font-size: $main-font-size;
     border: 1px solid $main-text-color;
+
+    &:hover {
+        background: $main-background-color;
+        cursor: pointer;
+    }
 }
 </style>
