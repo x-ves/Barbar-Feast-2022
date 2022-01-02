@@ -1,0 +1,14 @@
+{
+    "app": {
+        "title": "Barbar Feast comes again! 2022 - THREE DAYS OF HEAT"
+    },
+    "nav": {
+        "home": "Home",
+        "lineup": "Lineup",
+        "tickets": "Tickets",
+        "gates": "Gates"
+    },
+    "lineup": {
+        "filter": "Filters"
+    }
+}

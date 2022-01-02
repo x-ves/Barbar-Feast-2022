@@ -1,6 +1,6 @@
 <template>
   <TheNavbar />
-  <router-view/>
+  <router-view />
   <TheFooter />
 </template>
 
@@ -8,10 +8,21 @@
 import TheNavbar from "./components/layout/TheNavbar.vue";
 import TheFooter from "./components/layout/TheFooter.vue";
 
+import { setDocumentLang, setDocumentTitle } from "@/util/i18n/document.js";
+
 export default {
   components: {
     TheNavbar,
     TheFooter
+  },
+  mounted() {
+    this.$watch("$i18n.locale", (newLocale, oldLocale) => {
+      if (newLocale === oldLocale) {
+        return
+      }
+      setDocumentLang(newLocale),
+      setDocumentTitle(this.$t("app.title"))
+    }, {immediate: true})
   }
 }
 </script>

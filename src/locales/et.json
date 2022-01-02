@@ -1,0 +1,14 @@
+{
+    "app": {
+        "title": "Barbar Feast tuleb taas! 2022 - KOLM PÄEVA KÜTET"
+    },
+    "nav": {
+        "home": "Avaleht",
+        "lineup": "Bändid",
+        "tickets": "Piletid",
+        "gates": "Väravad"
+    },
+    "lineup": {
+        "filter": "Filtrid"
+    }
+}

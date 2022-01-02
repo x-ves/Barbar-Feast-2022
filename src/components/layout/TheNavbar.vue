@@ -2,20 +2,22 @@
     <nav class="nav">
         <div class="nav--backdrop" v-if="menuOpen" @click="toggleMenu"></div>
         <div class="nav--links">
-            <router-link class="nav--link" to="/">Home</router-link>
+            <router-link class="nav--link" to="/">{{ $t("nav.home") }}</router-link>
             <span class="nav--link--separator"></span>
-            <router-link class="nav--link" to="/lineup">Lineup</router-link>
-            <base-button>TICKETS</base-button>
+            <router-link class="nav--link" to="/lineup">{{ $t("nav.lineup") }}</router-link>
+            <base-button>{{ $t("nav.tickets") }}</base-button>
         </div>
         <NavbarCounter />
+        <locale-switcher @change="$emit('localeChange', $event)"></locale-switcher>
     </nav>
 </template>
 
 <script>
-import NavbarCounter from "../counters/NavbarCounter.vue";
+import NavbarCounter from "../navbar/NavbarCounter.vue";
+import LocaleSwitcher from "../navbar/LocaleSwitcher.vue";
 
 export default {
-    components: { NavbarCounter }
+    components: { NavbarCounter, LocaleSwitcher }
 }
 </script>
 

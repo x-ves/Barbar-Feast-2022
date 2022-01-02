@@ -1,6 +1,6 @@
 <template>
         <base-card class="filter">
-        <h3>Filter Bands</h3>
+        <h3>{{ $t("lineup.filter") }}</h3>
         <section class="filter--options">
             <span class="filter--option">
                 <input type="checkbox" id="punk" checked @change="setFilter">

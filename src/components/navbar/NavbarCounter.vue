@@ -1,5 +1,5 @@
 <template>
-    <span id="navbarCounter">GATES: {{ displayDaysLeft }} days</span>
+    <span id="navbarCounter">{{ $t("nav.gates") }}: {{ displayDaysLeft }} päeva</span>
 </template>
 
 <script>
