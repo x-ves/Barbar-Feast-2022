@@ -14,6 +14,11 @@ const routes = [
     // this generates a separate chunk (lineup.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "lineup" */ '../views/Lineup.vue')
+  },
+  {
+    path: "/:notFound(.*)",
+    name: "NotFound",
+    component: () => import(/* webpackChunkName: "notfound" */ '../views/NotFound.vue')
   }
 ]
 
