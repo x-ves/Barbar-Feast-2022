@@ -9,6 +9,15 @@
         "gates": "Gates"
     },
     "lineup": {
+        "title": "Lineup",
         "filter": "Filters"
+    },
+    "footer": {
+        "msg": "Barbar Feast is brought to you by rock club Barbar!",
+        "phone": "Phone",
+        "mail": "E-mail"
+      },
+    "errors": {
+        "noFilters": "Choose at least one filter!"
     }
 }

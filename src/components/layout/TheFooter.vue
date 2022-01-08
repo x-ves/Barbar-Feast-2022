@@ -6,12 +6,12 @@
         loading="lazy"
       />
       <div class="footer__contacts">
-        <h3>Barbar Feasti toob teieni rockiklubi Barbar!</h3>
+        <h3>{{ $t("footer.msg") }}</h3>
         <br />
         <p>
-          Tel:
+          {{ $t("footer.phone") }}:
           <strong><a href="tel:+37258377788">+372 5837 7788</a></strong> <br />
-          E-post:
+          {{ $t("footer.mail") }}:
           <strong
             ><a href="mailto:info@barbarfeast.ee"
               >info@barbarfeast.ee</a

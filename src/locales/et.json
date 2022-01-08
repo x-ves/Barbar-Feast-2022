@@ -9,6 +9,15 @@
         "gates": "Väravad"
     },
     "lineup": {
+        "title": "Bändid",
         "filter": "Filtrid"
+    },
+    "footer": {
+        "msg": "Barbar Feasti toob teieni rockiklubi Barbar!",
+        "phone": "Tel",
+        "mail": "E-post"
+    },
+    "errors": {
+        "noFilters": "Vali vähemalt üks filter!"
     }
 }

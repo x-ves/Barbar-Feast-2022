@@ -11,10 +11,10 @@ import BaseCard from "./components/UI/BaseCard.vue";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { faFacebookSquare, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faCalendarCheck } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookSquare, faInstagram, faBandcamp, faSpotify } from "@fortawesome/free-brands-svg-icons";
+import { faCalendarCheck, faTimes, faLongArrowAltLeft } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faFacebookSquare, faInstagram, faCalendarCheck);
+library.add(faFacebookSquare, faInstagram, faBandcamp, faSpotify, faCalendarCheck, faTimes, faLongArrowAltLeft);
 
 const i18n = createI18n({
     locale: process.env.VUE_APP_I18N_LOCALE || "et",

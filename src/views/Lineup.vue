@@ -1,14 +1,26 @@
 <template>
   <section class="lineup">
-    <h1 class="lineup--heading">LINEUP</h1>
+    <h1 class="lineup--heading">{{ $t("lineup.title") }}</h1>
     <section class="lineup--content">
     <LineupFilter class="lineup--filter" @change-filter="setFilters"/>
     <div class="lineup--cards">
-      <base-card v-for="band in filteredBands" :key="band">
+      <lineup-card
+        v-for="band in filteredBands"
+        :key="band"
+        :bandName="band.bandName"
+        :genres="band.genres"
+        :imgUrl="band.imgUrl"
+        :vidUrl="band.vidUrl"
+        :siteUrl="band.siteUrl"
+        :facebookUrl="band.facebookUrl"
+        :spotifyUrl="band.spotifyUrl"
+        :bandcampUrl="band.bandcampUrl"
+      />
+<!--       <base-card v-for="band in filteredBands" :key="band">
       <img class="lineup--cards--img" :src="band.imgUrl" />
       <h3>{{ band.bandName }}</h3>
-      </base-card>
-      <p class="lineup--message" v-if="!filtersActive">Choose at least one Filter!</p>
+      </base-card> -->
+      <p class="lineup--message" v-if="!filtersActive">{{ $t("errors.noFilters") }}</p>
     </div>
     </section>
   </section>
@@ -16,9 +28,10 @@
 
 <script>
 import LineupFilter from "@/components/lineup/LineupFilter.vue";
+import LineupCard from "@/components/lineup/LineupCard.vue";
 
 export default {
-  components: { LineupFilter },
+  components: { LineupCard, LineupFilter },
   data() {
     return {
       activeFilters: {
@@ -83,21 +96,6 @@ export default {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-
-      .baseCard {
-        padding: 0;
-      }
-
-      &--img {
-        width: 300px;
-        height: 200px;
-        background: $main-background-color;
-        object-fit: cover;
-      }
-
-      h3 {
-        margin: 0.5rem;
-      }
     }
   }
 
@@ -113,17 +111,17 @@ export default {
       justify-content: space-evenly;
     }
 
-    &--cards {
-      justify-content: flex-start;
-      width: 70%;
-    }
-
     &--filter {
       width: 30%;
     }
 
     &--message {
       margin: 5rem auto;
+    }
+
+    &--cards {
+      justify-content: flex-start;
+      width: 70%;
     }
   }
 }
