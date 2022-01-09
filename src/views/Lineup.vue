@@ -8,7 +8,7 @@
         v-for="band in filteredBands"
         :key="band"
         :bandName="band.bandName"
-        :genres="band.genres"
+        :genre="band.genre"
         :imgUrl="band.imgUrl"
         :vidUrl="band.vidUrl"
         :siteUrl="band.siteUrl"
@@ -45,13 +45,13 @@ export default {
     filteredBands() {
       const bands = this.$store.getters["bands"];
       return bands.filter(band => {
-        if (this.activeFilters.punk && band.genres.includes("punk")) {
+        if (this.activeFilters.punk && band.tags.includes("punk")) {
           return true;
         }
-        if (this.activeFilters.metal && band.genres.includes("metal")) {
+        if (this.activeFilters.metal && band.tags.includes("metal")) {
           return true;
         }
-        if (this.activeFilters.rock && band.genres.includes("rock")) {
+        if (this.activeFilters.rock && band.tags.includes("rock")) {
           return true;
         }
         return false;
@@ -77,11 +77,12 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding-top: 3rem;
     width: 100%;
 
     &--heading {
       font-size: $heading-font-size;
+      text-transform: uppercase;
       margin: 0.5rem;
     }
 

@@ -18,6 +18,7 @@
         />
         <img class="modal--Img" v-else :src="imgUrl" />
         <h3>{{ bandName }}</h3>
+        <span>({{ genre }})</span>
       </template>
 
       <template v-slot:body>
@@ -38,7 +39,7 @@ export default {
     props: [
                 "imgUrl",
                 "bandName",
-                "genres",
+                "genre",
                 "vidUrl",
                 "siteUrl",
                 "facebookUrl",

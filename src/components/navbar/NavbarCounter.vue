@@ -42,3 +42,9 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+#navbarCounter {
+    min-width: 12rem;
+}
+</style>

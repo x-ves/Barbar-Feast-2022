@@ -12,9 +12,9 @@ import BaseCard from "./components/UI/BaseCard.vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faFacebookSquare, faInstagram, faBandcamp, faSpotify } from "@fortawesome/free-brands-svg-icons";
-import { faCalendarCheck, faTimes, faLongArrowAltLeft } from "@fortawesome/free-solid-svg-icons";
+import { faCalendarCheck, faBars, faTimes, faLongArrowAltLeft } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faFacebookSquare, faInstagram, faBandcamp, faSpotify, faCalendarCheck, faTimes, faLongArrowAltLeft);
+library.add(faFacebookSquare, faInstagram, faBandcamp, faSpotify, faCalendarCheck, faBars, faTimes, faLongArrowAltLeft);
 
 const i18n = createI18n({
     locale: process.env.VUE_APP_I18N_LOCALE || "et",

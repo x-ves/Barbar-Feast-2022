@@ -10,7 +10,8 @@
     .notFound {
         display: flex;
         flex-direction: column;
-        margin: 5rem auto;
+        padding: 5rem;
+        margin: auto;
 
         h1 {
             font-size: $heading-font-size;

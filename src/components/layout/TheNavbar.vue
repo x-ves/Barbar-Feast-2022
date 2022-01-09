@@ -1,23 +1,47 @@
 <template>
     <nav class="nav">
         <div class="nav--backdrop" v-if="menuOpen" @click="toggleMenu"></div>
+        <locale-switcher class="nav--localeSwitcher" @change="$emit('localeChange', $event)"></locale-switcher>
         <div class="nav--links">
             <router-link class="nav--link" to="/">{{ $t("nav.home") }}</router-link>
-            <span class="nav--link--separator"></span>
             <router-link class="nav--link" to="/lineup">{{ $t("nav.lineup") }}</router-link>
-            <base-button>{{ $t("nav.tickets") }}</base-button>
+            <base-button class="nav--link">{{ $t("nav.tickets") }}</base-button>
         </div>
-        <NavbarCounter />
-        <locale-switcher @change="$emit('localeChange', $event)"></locale-switcher>
+        <span class="nav--icon" @click="toggleMenu">
+            <font-awesome-icon :icon="['fas', 'bars']"></font-awesome-icon>
+        </span>
     </nav>
 </template>
 
 <script>
-import NavbarCounter from "../navbar/NavbarCounter.vue";
 import LocaleSwitcher from "../navbar/LocaleSwitcher.vue";
 
 export default {
-    components: { NavbarCounter, LocaleSwitcher }
+    components: { LocaleSwitcher },
+    data() {
+        return {
+            menuOpen: false
+        };
+    },
+    methods: {
+        toggleMenu() {
+            const navLinks = document.querySelector(".nav--links");
+            const langSwitch = document.querySelector(".nav--localeSwitcher");
+            const linkStyle = window.getComputedStyle(navLinks);
+            const width = window.innerWidth;
+            if (width < 768) {
+                if (linkStyle.getPropertyValue("display") === "none") {
+                this.menuOpen = true;
+                navLinks.style.display = "flex";
+                langSwitch.style.display = "block";
+                } else {
+                this.menuOpen = false;
+                navLinks.style.display = "none";
+                langSwitch.style.display = "none";
+                }
+            }
+        }
+    }
 }
 </script>
 
@@ -26,27 +50,88 @@ export default {
     margin: 0;
     background: $secondary-background-color;
     width: 100%;
-    padding: 0.5rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    position: fixed;
+
+    &--backdrop {
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+
+    &--localeSwitcher {
+        display: none;
+        z-index: 1;
+    }
+
+    &--links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
 
     &--link {
-        padding: 0.5rem;
         text-transform: uppercase;
         text-decoration: none;
         color: $main-text-color;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        padding: 10px;
+        transition: 0.3s all;
+        border: none;
 
-    &--separator::before {
-        content: "★";
-        transform: rotate(180deg);
-        z-index: -1;
-        vertical-align: middle;
-        display: inline-block;
+        &:hover {
+          background-color: $main-background-color;
+        }
     }
+
+    &--icon {
+        align-self: flex-end;
+        cursor: pointer;
+        padding: 10px;
+        transition: all 0.4s;
+        font-size: 1.2rem;
+        z-index: 1;
     }
 }
 
-#navbarCounter {
-    padding: 0.5rem;
+@media only screen and (min-width: 768px) {
+  .nav {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    &--localeSwitcher {
+      display: block;
+    }
+
+    &--icon {
+      display: none;
+    }
+
+    &--links {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    &--link {
+        font-size: 1rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1440px) {
 }
 </style>

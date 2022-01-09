@@ -9,6 +9,7 @@ button {
     padding: 0.5rem;
     font-size: $main-font-size;
     border: 1px solid $main-text-color;
+    text-transform: uppercase;
 
     &:hover {
         background: $main-background-color;

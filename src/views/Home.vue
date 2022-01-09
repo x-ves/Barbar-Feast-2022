@@ -1,5 +1,5 @@
 <template>
-  <section id="home">
+  <section class="home">
     <section class="welcome">
       <img id="feastPoster" alt="Barbar Feast 2022 poster" src="../assets/feast-graphics.jpg">
       <div class="welcome--counter">
@@ -42,6 +42,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 2.6rem;
 }
 
 .welcome {
