@@ -17,6 +17,13 @@
         "phone": "Tel",
         "mail": "E-post"
     },
+    "counter": {
+        "gates": "Väravate avanemiseni...",
+        "days": "päeva",
+        "hours": "tundi",
+        "minutes": "minutit",
+        "seconds": "sekundit"
+    },
     "errors": {
         "noFilters": "Vali vähemalt üks filter!"
     }

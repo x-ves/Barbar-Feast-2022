@@ -16,7 +16,14 @@
         "msg": "Barbar Feast is brought to you by rock club Barbar!",
         "phone": "Phone",
         "mail": "E-mail"
-      },
+    },
+    "counter": {
+        "gates": "The gates open in...",
+        "days": "days",
+        "hours": "hours",
+        "minutes": "minutes",
+        "seconds": "seconds"
+    },
     "errors": {
         "noFilters": "Choose at least one filter!"
     }

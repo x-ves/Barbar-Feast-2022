@@ -41,7 +41,8 @@ export default {
 body {
   margin: 0;
   padding: 0;
-  background: $main-background-color;
+  background: url("./assets/noise.png");
+  background-color: $main-background-color;
   color: $main-text-color;
   font-size: $main-font-size;
 }

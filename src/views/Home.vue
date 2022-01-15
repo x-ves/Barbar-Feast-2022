@@ -4,7 +4,7 @@
       <img id="feastPoster" alt="Barbar Feast 2022 poster" src="../assets/feast-graphics.jpg">
       <div class="welcome--counter">
         <base-card>
-          <p>This section will include a counter until opening of gates. And a button to buy tickets.</p>
+          <the-counter></the-counter>
           <base-button>TICKETS</base-button>
         </base-card>
         </div>
@@ -28,11 +28,12 @@
 </template>
 
 <script>
-// @ is an alias to /src
+import TheCounter from "../components/layout/TheCounter.vue";
 
 export default {
   name: 'Home',
   components: {
+    TheCounter
   }
 }
 </script>
@@ -49,13 +50,21 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &--counter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 #feastPoster {
   width: 100%;
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+}
 
 
 @media only screen and (min-width: 1024px) {
@@ -75,8 +84,10 @@ export default {
 }
 
 .news {
+  width: 100%;
+  padding: 1rem 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   background: $secondary-background-color;
 }
 
