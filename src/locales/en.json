@@ -5,12 +5,16 @@
     "nav": {
         "home": "Home",
         "lineup": "Lineup",
+        "info": "Info",
         "tickets": "Tickets",
         "gates": "Gates"
     },
     "lineup": {
         "title": "Lineup",
         "filter": "Filters"
+    },
+    "info": {
+        "title": "Info"
     },
     "footer": {
         "msg": "Barbar Feast is brought to you by rock club Barbar!",

@@ -5,12 +5,16 @@
     "nav": {
         "home": "Avaleht",
         "lineup": "Bändid",
+        "info": "Info",
         "tickets": "Piletid",
         "gates": "Väravad"
     },
     "lineup": {
         "title": "Bändid",
         "filter": "Filtrid"
+    },
+    "info": {
+        "title": "Info"
     },
     "footer": {
         "msg": "Barbar Feasti toob teieni rockiklubi Barbar!",

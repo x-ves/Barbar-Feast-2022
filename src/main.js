@@ -9,6 +9,8 @@ import loadLocaleMessages from "./i18n";
 import BaseButton from "./components/UI/BaseButton.vue";
 import BaseCard from "./components/UI/BaseCard.vue";
 
+import TheMap from "./components/layout/TheMap.vue";
+
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faFacebookSquare, faInstagram, faBandcamp, faSpotify } from "@fortawesome/free-brands-svg-icons";
@@ -31,5 +33,6 @@ app.use(i18n);
 app.component("base-button", BaseButton);
 app.component("base-card", BaseCard);
 app.component("font-awesome-icon", FontAwesomeIcon);
+app.component("the-map", TheMap);
 
 app.mount('#app');
