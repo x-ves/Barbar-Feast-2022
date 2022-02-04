@@ -1,4 +1,5 @@
 export default {
-    et: "ET",
-    en: "EN"
+    et: "EST",
+    fi: "FIN",
+    en: "ENG"
   };

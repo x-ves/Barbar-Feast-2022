@@ -3,10 +3,10 @@
         "title": "Barbar Feast tuleb taas! 2022 - KOLM PÄEVA KÜTET"
     },
     "nav": {
-        "home": "Avaleht",
-        "lineup": "Bändid",
-        "info": "Info",
-        "tickets": "Piletid"
+        "home": "Kotisivu",
+        "lineup": "Bändit",
+        "info": "Lisätiedot",
+        "tickets": "Liput"
     },
     "lineup": {
         "title": "Bändid",
@@ -16,16 +16,16 @@
         "title": "Info"
     },
     "footer": {
-        "msg": "Barbar Feasti toob teieni rockiklubi Barbar!",
+        "msg": "Barbar Feastin mahdollistaa Eestin kovin rockklubi Barbar!",
         "phone": "Tel",
-        "mail": "E-post"
+        "mail": "E-mail"
     },
     "counter": {
-        "gates": "Väravate avanemiseni...",
-        "days": "päeva",
-        "hours": "tundi",
-        "minutes": "minutit",
-        "seconds": "sekundit"
+        "gates": "Porttien aukeamiseen...",
+        "days": "päivää",
+        "hours": "tuntia",
+        "minutes": "minuuttia",
+        "seconds": "sekunttia"
     },
     "errors": {
         "noFilters": "Vali vähemalt üks filter!"
