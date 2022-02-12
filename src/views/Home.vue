@@ -33,6 +33,49 @@
       </div>
       <the-map />
     </section>
+    <section class="bus">
+      <img class="bus--img" src="/festivalibuss.webp" alt="Metal Travel Agency bus">
+      <div class="bus--text">
+        <h3 class="bus--title">Metal Travel Agency</h3>
+        <p>FESTIVALIKÜLASTAJAID SÕIDUTAB LIINIL TLN-VK-TLN <a target="_blank" href="https://metaltravel.net/">METAL TRAVEL AGENCY</a> (täpne info peatselt)</p>
+      </div>
+    </section>
+    <section class="faq">
+      <h3 class="faq--title">{{ $t("faq.title") }}</h3>
+    </section>
+    <section class="sponsors">
+      <h3 class="sponsors--title">{{ $t("sponsors.title") }}</h3>
+      <div class="sponsors__wrapper">
+        <a target="_blank" href="https://www.hbrebel.cz/en/"
+          ><img
+            class="sponsors--img"
+            src="@/assets/Rebel-transparent.png"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a target="_blank" href="https://www.fireballwhisky.com/"
+          ><img
+            class="sponsors--img"
+            src="@/assets/Fireball-transparent.png"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a target="_blank" href="https://www.facebook.com/roaddevilmc"
+          ><img
+            class="sponsors--img"
+            src="@/assets/Road-Devil-transparent.png"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a target="_blank" href="https://www.facebook.com/barbarestonia"
+          ><img
+            class="sponsors--img"
+            src="@/assets/Barbar-transparent.webp"
+            alt=""
+            loading="lazy"
+        /></a>
+      </div>
+    </section>
   </section>
 </template>
 
@@ -128,6 +171,51 @@ export default {
       width: fit-content;
       align-self: center;
     }
+  }
+}
+
+.bus {
+  display: flex;
+  flex-direction: column-reverse;
+
+  &--title {
+      color: $main-text-color;
+      margin: 1rem;
+      font-size: 2rem;
+      text-align: center;
+      text-transform: uppercase;
+      background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
+  }
+
+  &--img {
+    min-width: 20rem;
+    width: 100%;
+  }
+}
+
+.faq {
+  &--title {
+      color: $main-text-color;
+      margin: 1rem;
+      font-size: 2rem;
+      text-align: center;
+      text-transform: uppercase;
+      background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
+  }
+}
+
+.sponsors {
+  &--title {
+      color: $main-text-color;
+      margin: 1rem;
+      font-size: 2rem;
+      text-align: center;
+      text-transform: uppercase;
+      background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
+  }
+
+  &--img {
+    width: 10rem;
   }
 }
 
