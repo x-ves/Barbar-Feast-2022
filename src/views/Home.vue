@@ -25,13 +25,13 @@
       </base-card>
     </section>
     <section class="location">
-      <div class="location__slides">
-        <div class="location__slides__slider">
+      <div class="location__content">
+        <div class="location__content--carousel">
           <the-image-carousel />
         </div>
-        <div class="location__slides__text">
-          <h1 class="location__title">{{ $t("location.header") }}</h1>
-          <p class="location__desc">
+        <div class="location__content--text">
+          <h1 class="location__content--title">{{ $t("location.header") }}</h1>
+          <p class="location__content--desc">
             <span v-html="$t('location.desc')"></span> <br /><br />
             {{ $t("location.event") }}
             <a
@@ -72,6 +72,7 @@ export default {
   flex-direction: column;
   align-items: center;
   padding-top: 2.6rem;
+  width: 100%;
 }
 
 .welcome {
@@ -87,55 +88,57 @@ export default {
 }
 
 .location {
+  width: 100%;
   padding: 1rem 0 0 0;
   font-size: 1.1rem;
   display: flex;
   flex-direction: column;
-  background: radial-gradient(var(--main-bg-color), var(--secondary-bg-color));
+  background: radial-gradient($main-background-color, $secondary-background-color);
 
   a {
-    color: var(--secondary-text-color);
+    color: $barbar-red;
     text-decoration: none;
     font-weight: 500;
 
     &:hover {
       text-decoration: underline;
-      color: var(--hover-text-color);
+      color: $barbar-red;
     }
   }
 
-  &__slides {
+  &__content {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
 
-    &__slider,
-    &__text {
-      display: flex;
-      flex-direction: column;
+    &--carousel {
+      width: 100%;
+      align-self: center;
     }
 
-    &__text {
+    &--text {
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       width: 97%;
       margin: 0 auto;
     }
-  }
 
-  &__title {
-    color: var(--secondary-text-color);
-    margin: 1rem;
-    font-size: 2rem;
-    text-align: center;
-    text-transform: uppercase;
-    background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
-  }
+    &--title {
+      color: $main-text-color;
+      margin: 1rem;
+      font-size: 2rem;
+      text-align: center;
+      text-transform: uppercase;
+      background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
+    }
 
-  &__desc {
-    margin: 0;
-    padding: 1rem;
-    width: fit-content;
-    align-self: center;
-    border: 0.65rem dashed var(--darkest-of-the-dark);
+    &--desc {
+      margin: 0;
+      padding: 1rem;
+      width: fit-content;
+      align-self: center;
+    }
   }
 }
 
@@ -170,6 +173,23 @@ export default {
   display: flex;
   justify-content: space-evenly;
   background: $secondary-background-color;
+}
+
+.location {
+  &__content {
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+
+    &--carousel {
+      width: 50%;
+    }
+
+    &--text {
+      width: 50%;
+    }
+  }
 }
 
 }
