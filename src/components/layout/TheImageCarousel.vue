@@ -19,24 +19,24 @@ export default {
     return {
       slides: [
         {
-            imgUrl: "/fortstage-lochlainn.jpg",
+            imgUrl: "/fortstage-lochlainn.webp",
             author: "Lochlainn Warren"
         },
         {
-            imgUrl: "/riverstage-lochlainn.jpg",
+            imgUrl: "/riverstage-lochlainn.webp",
             author: "Lochlainn Warren"
         },
         {
-            imgUrl: "/j6gi-JalmarV2in.jpg",
+            imgUrl: "/j6gi-JalmarV2in.webp",
             author: "Jalmar Väin"
         },
         {
-            imgUrl: "/linnusetorn-JalmarV2in.jpg",
+            imgUrl: "/linnusetorn-JalmarV2in.webp",
             author: "Jalmar Väin"
        },
        {
-           imgUrl: "/hundikuut-Madis.jpg",
-           author: "Madis Velström"
+           imgUrl: "/fortfuntime-lochlainn.webp",
+           author: "Lochlainn Warren"
        }
       ],
       timer: null
@@ -173,17 +173,18 @@ export default {
 
 @media only screen and (min-width: 1024px) {
   .slider {
-    margin: 1rem auto;
 
     &__slides {
       min-width: 30em;
       min-height: 24em;
+      width: 100%;
       width: 30rem;
     }
 
     &__controls {
       min-width: 30em;
       min-height: 28em;
+      width: 100%;
       width: fit-content;
     }
   }
@@ -191,7 +192,7 @@ export default {
   .slide {
       &--img {
         min-height: 24em;
-        min-width: 30em;
+        min-width: 30rem;
       }
 
       &--author {

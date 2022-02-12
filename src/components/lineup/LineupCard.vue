@@ -95,6 +95,7 @@ export default {
       transition: 0.3s background-color ease-in-out;
       display: flex;
       flex-direction: column;
+      margin: 0.5rem;
 
       &:hover {
         background: $barbar-red;

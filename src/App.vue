@@ -45,7 +45,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url("./assets/noise.png");
+  background: url("./assets/noise.webp");
   background-color: $main-background-color;
   color: $main-text-color;
   font-size: $main-font-size;

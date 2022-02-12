@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
       <img
-        src="@/assets/Barbar-transparent.png"
+        src="@/assets/Barbar-transparent.webp"
         alt="BarBar logo"
         loading="lazy"
       />
@@ -82,7 +82,7 @@
       <a target="_blank" href="https://xves.rocks"
         ><img
           style="position: fixed; right: 1px; bottom: 1px; width: 35px; height: 35px; transform: rotate(-45deg);"
-          src="@/assets/1.png"
+          src="@/assets/1.webp"
           alt=""
       /></a>
   </footer>

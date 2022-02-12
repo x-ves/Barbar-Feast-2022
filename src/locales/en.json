@@ -21,7 +21,7 @@
         "mail": "E-mail"
     },
     "counter": {
-        "gates": "The gates open in...",
+        "gates": "The gates open in",
         "days": "days",
         "hours": "hours",
         "minutes": "minutes",

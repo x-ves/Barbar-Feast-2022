@@ -81,19 +81,15 @@ export default {
 
 <style lang="scss" scoped>
 .counter {
-  display: flex;
-  flex-direction: column;
   margin: 0;
-  align-self: center;
-  width: fit-content;
   padding: 0.5rem;
-  width: 100%;
 
   &__title {
     color: $main-text-color;
+    background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
     margin: 0 0 0.5rem 0;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: $heading-font-size;
+    font-weight: 700;
     text-transform: uppercase;
   }
 
@@ -134,7 +130,7 @@ export default {
       &__title {
         margin: 0 0 0.5rem 0;
         font-size: $heading-font-size;
-        font-weight: 500;
+        font-weight: 700;
       }
 
       &__time {
