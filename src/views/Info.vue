@@ -20,6 +20,8 @@
       font-size: $heading-font-size;
       text-transform: uppercase;
       margin: 0.5rem;
+      width: 16rem;
+      background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
     }
 
     &--content {

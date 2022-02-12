@@ -2,7 +2,7 @@
     <nav class="nav">
         <div class="nav--backdrop" v-if="menuOpen" @click="toggleMenu"></div>
         <locale-switcher class="nav--localeSwitcher" @change="$emit('localeChange', $event)"></locale-switcher>
-        <div class="nav--links">
+        <div class="nav--links" @click="toggleMenu">
             <router-link class="nav--link" to="/">{{ $t("nav.home") }}</router-link>
             <router-link class="nav--link" to="/lineup">{{ $t("nav.lineup") }}</router-link>
             <router-link class="nav--link" to="/info">{{ $t("nav.info") }}</router-link>
@@ -55,6 +55,7 @@ export default {
     justify-content: space-between;
     flex-direction: column-reverse;
     position: fixed;
+    z-index: 3;
 
     &--backdrop {
         background: rgba(0, 0, 0, 0.3);
@@ -63,7 +64,7 @@ export default {
         right: 0;
         bottom: 0;
         left: 0;
-        z-index: 0;
+        z-index: 1;
     }
 
 

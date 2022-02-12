@@ -15,43 +15,11 @@
         </section>
 
         <section class="modal--footer">
-          <button class="arrowButton" @click="closeModal()">
+          <button id="arrowButton" @click="closeModal()">
             <font-awesome-icon
               :icon="['fas', 'long-arrow-alt-left']"
             ></font-awesome-icon>
           </button>
-          <div class="modal--socials">
-            <a
-              class="modal--socials--icon"
-              target="_blank"
-              v-if="siteUrl"
-              :href="siteUrl"
-              ><font-awesome-icon :icon="['fas', 'home']"></font-awesome-icon
-            ></a>
-            <a
-              class="modal--socials--icon"
-              target="_blank"
-              v-if="facebookUrl"
-              :href="facebookUrl"
-              ><font-awesome-icon
-                :icon="['fab', 'facebook-square']"
-              ></font-awesome-icon
-            ></a>
-            <a
-              class="modal--socials--icon"
-              target="_blank"
-              v-if="spotifyUrl"
-              :href="spotifyUrl"
-              ><font-awesome-icon :icon="['fab', 'spotify']"></font-awesome-icon
-            ></a>
-            <a
-              class="modal--socials--icon"
-              target="_blank"
-              v-if="bandcampUrl"
-              :href="bandcampUrl"
-              ><font-awesome-icon :icon="['fab', 'bandcamp']"></font-awesome-icon
-            ></a>
-          </div>
           <slot name="footer"></slot>
         </section>
       </section>
@@ -120,21 +88,25 @@ export default {
     @media screen and (max-width: 992px) {
       width: 95%;
     }
-  }
 
-  .arrowButton {
-    color: var(--secondary-text-color);
-    border: none;
-    background: transparent;
-    font-size: 2.5rem;
-    height: 1rem;
-    width: fit-content;
-    outline: none;
-    cursor: pointer;
-    transition: color 0.2s;
+    #arrowButton {
+      color: $main-text-color;
+      border: none;
+      background: transparent;
+      height: fit-content;
+      width: fit-content;
+      justify-self: center;
+      outline: none;
+      cursor: pointer;
+      transition: color 0.2s;
 
-    &:hover {
-      color: var(--hover-text-color);
+      svg {
+        font-size: 2.5rem;
+      }
+
+      &:hover {
+        color: $barbar-red;
+      }
     }
   }
 
@@ -145,7 +117,7 @@ export default {
       justify-content: space-evenly;
 
       &--icon {
-        color: var(--secondary-text-color);
+        color: $main-text-color;
         font-size: 1.5rem;
         margin: 0 0.15rem;
         cursor: pointer;
@@ -153,7 +125,7 @@ export default {
         vertical-align: middle;
 
         &:hover {
-          color: var(--hover-text-color);
+          color: $barbar-red;
         }
       }
     }
@@ -187,7 +159,7 @@ export default {
       margin: 0.5rem 0 0 0;
       font-size: 2rem;
       text-transform: uppercase;
-      color: var(--secondary-text-color);
+      color: $main-text-color;
       text-align: center;
     }
 

@@ -13,8 +13,8 @@
           <strong><a href="tel:+37258377788">+372 5837 7788</a></strong> <br />
           {{ $t("footer.mail") }}:
           <strong
-            ><a href="mailto:info@barbarfeast.ee"
-              >info@barbarfeast.ee</a
+            ><a href="mailto:info@barbarrockclub.com"
+              >info@barbarrockclub.com</a
             ></strong
           >
         </p>
@@ -104,7 +104,7 @@ export default {};
   justify-content: space-evenly;
   align-items: center;
   line-height: 1.5;
-  font-size: 0.9rem;
+  font-size: 1rem;
 
   img {
     width: 200px;
@@ -150,6 +150,12 @@ export default {};
     }
   }
 
+  .socsp {
+    margin: 0.15rem 0.3rem;
+    display: flex;
+    align-items: center;
+  }
+
   &__socials {
     margin-top: 1rem;
     display: flex;
@@ -172,7 +178,6 @@ export default {};
     &__icon {
       margin-right: 0.25rem;
       font-size: 1.25rem;
-      vertical-align: text-top;
     }
   }
 }

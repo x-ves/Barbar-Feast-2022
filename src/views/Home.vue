@@ -24,16 +24,44 @@
         Exercitationem sapiente vero, quasi eius optio delectus nulla magnam modi, architecto dolores rem aliquid eveniet, suscipit quam. Laudantium est minima obcaecati, quis autem temporibus provident ad, reprehenderit suscipit saepe non!
       </base-card>
     </section>
+    <section class="location">
+      <div class="location__slides">
+        <div class="location__slides__slider">
+          <the-image-carousel />
+        </div>
+        <div class="location__slides__text">
+          <h1 class="location__title">{{ $t("location.header") }}</h1>
+          <p class="location__desc">
+            <span v-html="$t('location.desc')"></span> <br /><br />
+            {{ $t("location.event") }}
+            <a
+              href="https://www.facebook.com/events/330945968527636/"
+              target="_blank"
+              >{{ $t("location.eventlink") }}</a
+            >
+            <br />
+            {{ $t("location.more") }}
+            <a href="https://www.viikingitekyla.ee/" target="_blank">{{
+              $t("location.link")
+            }}</a
+            >. <br /><br />
+          </p>
+        </div>
+      </div>
+      <the-map />
+    </section>
   </section>
 </template>
 
 <script>
 import TheCounter from "../components/layout/TheCounter.vue";
+import TheImageCarousel from "../components/layout/TheImageCarousel.vue";
 
 export default {
   name: 'Home',
   components: {
-    TheCounter
+    TheCounter,
+    TheImageCarousel
   }
 }
 </script>
@@ -55,6 +83,59 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+}
+
+.location {
+  padding: 1rem 0 0 0;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(var(--main-bg-color), var(--secondary-bg-color));
+
+  a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+      color: var(--hover-text-color);
+    }
+  }
+
+  &__slides {
+    display: flex;
+    flex-direction: column-reverse;
+
+    &__slider,
+    &__text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__text {
+      justify-content: center;
+      width: 97%;
+      margin: 0 auto;
+    }
+  }
+
+  &__title {
+    color: var(--secondary-text-color);
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
+  }
+
+  &__desc {
+    margin: 0;
+    padding: 1rem;
+    width: fit-content;
+    align-self: center;
+    border: 0.65rem dashed var(--darkest-of-the-dark);
   }
 }
 

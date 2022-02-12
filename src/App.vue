@@ -38,6 +38,10 @@ export default {
   background: rgba(0, 0, 0, 0.3);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;

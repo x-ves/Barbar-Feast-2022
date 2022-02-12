@@ -1,7 +1,10 @@
 <template>
     <base-card @click="$refs.LineupModal.openModal()">
       <img class="lineup--img" :src="imgUrl" />
-      <h3>{{ bandName }}</h3>
+      <div class="lineup--cardText">
+        <h3>{{ bandName }}</h3>
+        <span>({{ genre }})</span>
+      </div>
     </base-card>
     <lineup-modal ref="LineupModal" class="modal">
         <template v-slot:header>
@@ -26,7 +29,38 @@
       </template>
 
       <template v-slot:footer>
-
+        <div class="modal--socials">
+          <a
+            class="modal--socials--icon"
+            target="_blank"
+            v-if="siteUrl"
+            :href="siteUrl"
+            ><font-awesome-icon :icon="['fas', 'home']"></font-awesome-icon
+          ></a>
+          <a
+            class="modal--socials--icon"
+            target="_blank"
+            v-if="facebookUrl"
+            :href="facebookUrl"
+            ><font-awesome-icon
+              :icon="['fab', 'facebook-square']"
+            ></font-awesome-icon
+          ></a>
+          <a
+            class="modal--socials--icon"
+            target="_blank"
+            v-if="spotifyUrl"
+            :href="spotifyUrl"
+            ><font-awesome-icon :icon="['fab', 'spotify']"></font-awesome-icon
+          ></a>
+          <a
+            class="modal--socials--icon"
+            target="_blank"
+            v-if="bandcampUrl"
+            :href="bandcampUrl"
+            ><font-awesome-icon :icon="['fab', 'bandcamp']"></font-awesome-icon
+          ></a>
+        </div>
       </template>
     </lineup-modal>
 </template>
@@ -55,9 +89,16 @@ export default {
 
 <style lang="scss" scoped>
 .lineup {
-
     .baseCard {
       padding: 0;
+      cursor: pointer;
+      transition: 0.3s background-color ease-in-out;
+      display: flex;
+      flex-direction: column;
+
+      &:hover {
+        background: $barbar-red;
+      }
     }
 
     &--img {
@@ -67,8 +108,17 @@ export default {
       object-fit: cover;
     }
 
-    h3 {
+    &--cardText {
+      display: flex;
+      flex-direction: column;
       margin: 0.5rem;
+
+      h3 {
+        margin: 0;
+      }
+      span {
+        margin: 0;
+      }
     }
 }
 

@@ -4,6 +4,17 @@ export default createStore({
   state: {
     bands: [
       {
+        bandName: "Korpiklaani",
+        tags: ["metal"],
+        genre: "Folk Metal",
+        imgUrl: "https://korpiklaani.com/wp-content/uploads/2021/01/1.-KK-Band-Hi-Res.jpg",
+        vidUrl: "https://www.youtube-nocookie.com/embed/xoLmeOBn4ck",
+        siteUrl: "https://korpiklaani.com/",
+        facebookUrl: "https://www.facebook.com/korpiklaani",
+        spotifyUrl: "https://open.spotify.com/artist/521Yl3LUvD7G9dMRO4fpCy",
+        bandcampUrl: "https://korpiklaani.bandcamp.com/"
+      },
+      {
         bandName: "Velikije Luki",
         tags: ["punk"],
         genre: "Punk Rock",

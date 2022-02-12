@@ -16,10 +16,6 @@
         :spotifyUrl="band.spotifyUrl"
         :bandcampUrl="band.bandcampUrl"
       />
-<!--       <base-card v-for="band in filteredBands" :key="band">
-      <img class="lineup--cards--img" :src="band.imgUrl" />
-      <h3>{{ band.bandName }}</h3>
-      </base-card> -->
       <p class="lineup--message" v-if="!filtersActive">{{ $t("errors.noFilters") }}</p>
     </div>
     </section>
@@ -77,13 +73,15 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 3rem;
+    padding-top: 4rem;
     width: 100%;
 
     &--heading {
       font-size: $heading-font-size;
       text-transform: uppercase;
       margin: 0.5rem;
+      width: 16rem;
+      background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
     }
 
     &--content {
@@ -107,6 +105,8 @@ export default {
 @media only screen and (min-width: 1024px) {
   .lineup {
     &--content {
+      width: 95%;
+      margin: 1rem 0;
       flex-direction: row-reverse;
       align-items: flex-start;
       justify-content: space-evenly;
@@ -118,6 +118,7 @@ export default {
 
     &--message {
       margin: 5rem auto;
+      font-size: 1.5rem;
     }
 
     &--cards {
