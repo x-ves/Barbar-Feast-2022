@@ -76,6 +76,15 @@ body {
   overflow: hidden;
 }
 
+.title {
+  color: $main-text-color;
+  margin: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
+}
+
 @media only screen and (min-width: 768px) {}
 
 @media only screen and (min-width: 1024px) {}

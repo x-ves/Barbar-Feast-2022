@@ -1,6 +1,6 @@
 <template>
     <section class="info">
-        <h1 class="info--heading">{{ $t("info.title") }}</h1>
+        <h1 class="title">{{ $t("info.title") }}</h1>
         <section class="info--content">
         <the-map></the-map>
         </section>
@@ -16,12 +16,8 @@
     padding-top: 3rem;
     width: 100%;
 
-    &--heading {
-      font-size: $heading-font-size;
-      text-transform: uppercase;
-      margin: 0.5rem;
+    .title {
       width: 16rem;
-      background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
     }
 
     &--content {

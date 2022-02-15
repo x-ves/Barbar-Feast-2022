@@ -1,6 +1,6 @@
 <template>
   <section class="lineup">
-    <h1 class="lineup--heading">{{ $t("lineup.title") }}</h1>
+    <h1 class="title">{{ $t("lineup.title") }}</h1>
     <section class="lineup--content">
     <LineupFilter class="lineup--filter" @change-filter="setFilters"/>
     <div class="lineup--cards">
@@ -76,12 +76,8 @@ export default {
     padding-top: 4rem;
     width: 100%;
 
-    &--heading {
-      font-size: $heading-font-size;
-      text-transform: uppercase;
-      margin: 0.5rem;
+    .title {
       width: 16rem;
-      background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
     }
 
     &--content {

@@ -20,7 +20,7 @@
           loading="lazy"
         />
         <img class="modal--Img" v-else :src="imgUrl" />
-        <h3>{{ bandName }}</h3>
+        <h3 class="title">{{ bandName }}</h3>
         <span>({{ genre }})</span>
       </template>
 

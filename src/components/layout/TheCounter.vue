@@ -1,6 +1,6 @@
 <template>
   <div class="counter">
-    <h3 class="counter__title">{{ $t("counter.gates") }}</h3>
+    <h1 class="title">{{ $t("counter.gates") }}</h1>
     <div class="counter__time">
       <div class="counter__time__days">
         <span class="counter__time__num">{{ displayDays }}</span>
@@ -84,13 +84,8 @@ export default {
   margin: 0;
   padding: 0.5rem;
 
-  &__title {
-    color: $main-text-color;
-    background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
+  .title {
     margin: 0 0 0.5rem 0;
-    font-size: $heading-font-size;
-    font-weight: 700;
-    text-transform: uppercase;
   }
 
   &__time {

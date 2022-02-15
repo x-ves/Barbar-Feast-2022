@@ -9,6 +9,5 @@
     background-color: $secondary-background-color;
     box-shadow: 0px 0px 15px 3px $box-shadow-color;
     min-width: 18rem;
-    padding: 1rem;
 }
 </style>
