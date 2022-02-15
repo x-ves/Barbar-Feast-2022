@@ -47,7 +47,20 @@ export default {
 
 <style lang="scss" scoped>
 
-    @media only screen and (min-width: 768px) {}
+    .filter {
+        padding-bottom: 1.5rem;
+        width: 90%;
+
+        &--option {
+            margin: 0.1rem 0.25rem;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .filter {
+            width: 98%;
+        }
+    }
 
 
     @media only screen and (min-width: 1024px) {

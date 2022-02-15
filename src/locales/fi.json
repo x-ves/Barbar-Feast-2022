@@ -1,4 +1,5 @@
 {
+    "buyTickets": "OSTA LIPUT",
     "app": {
         "title": "Barbar Feast tuleb taas! 2022 - KOLM PÄEVA KÜTET"
     },
@@ -37,5 +38,24 @@
         "eventlink": "tässä.",
         "more": "Lisätietoja Viikinkien kylästä löydät",
         "link": "kotisivulta"
-    }
+    },
+    "parking": {
+        "title": "Parking",
+        "desc": "Parking information coming soon! (We'll be opening a big new camping ground x parking lot)"
+    },
+    "faq": {
+        "title": "Usein kysytyt kysymykset",
+        "q1": "Missäs tää festari on?",
+        "a1": "Barbar Feast 2021 on luonnonkauniissa Viikinkien kylässä, Kose kunnassa, noin 30km etelään Tallinnasta kohti Tartua",
+        "q2": "How do I get there?",
+        "a2": "For those who come by car or motorcycle, the map above has a link for directions (click on the red pin) - the destination is Viikingite küla, Saula, 75117 Harju maakond. You'll also find information about the parking lots above. ⬆ <br><br> There will also be a Festival Bus (named \"Hop On Fuck Off\") departing from in front of Rockclub Barbar (Rävala pst 8, 10145 Tallinn). Find more info about the bus right above! ⬆",
+        "q3": "Mites majoitus?",
+        "a3": "Viikinkien kylässä on moniakin mökkimajoituksia, mutta luulen, että kaikki varattu jo kun sinä tätä luet... Mutta, hei, telttakylät ovat täysin ilmaisia festaripassin ostaneille! Ja mikä olisikaan parempaa kuin after party telttojen luona!",
+        "q4": "Saako omat juomat tuoda mukana festarialueelle?",
+        "a4": "No hei, hyvä kysymys... Ei saa. Janon sammuttamiseksi välineet löytyvät festivaalialueelta, jossa useat paikalliset pienpanimot tarjoavat tuotteitaan edulliseen hintaan.",
+        "q5": "Mites korttimaksu festarialueella?",
+        "a5": "No tottakai, mutta aina on hyvä olla käteistä mukana.",
+        "q6": "Voinko minä...?",
+        "a6": "No tottakai, kunhan se ei ole Viikinkien kylän järjestyssääntöjen vastainen tai Eesti Tasavallan perustuslain vastainen asia ja ei häiritse lähiympäristössä olevia ihmisiä tai eläimiä, ja jos sinulla on mielessä jotain erikoista, niin anna meille infoa etukäteen, varmati löydämme ratkaisun."
+      }
 }

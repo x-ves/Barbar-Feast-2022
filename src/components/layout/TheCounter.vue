@@ -81,16 +81,17 @@ export default {
 
 <style lang="scss" scoped>
 .counter {
-  margin: 0;
-  padding: 0.5rem;
+  margin: 1rem 0 0.5rem 0;
 
   .title {
-    margin: 0 0 0.5rem 0;
+    margin: 0;
+    padding: 0;
   }
 
   &__time {
     display: flex;
     justify-content: center;
+    margin: 0.5rem 0;
 
     &__days,
     &__hours,
@@ -98,8 +99,8 @@ export default {
     &__seconds {
       display: flex;
       flex-direction: column;
-      padding: 0.25rem;
-      margin: 0.15rem;
+      padding: 0.5rem;
+      margin: 0.3rem;
       background: linear-gradient($main-background-color, $secondary-background-color);
       box-shadow: 0px 0px 3px $box-shadow-color;
       color: var(--main-text-color);

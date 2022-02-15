@@ -4,7 +4,9 @@
       <img id="feastPoster" alt="Barbar Feast 2022 poster" src="../assets/feast-graphics.webp">
       <base-card class="welcome--counter">
         <the-counter></the-counter>
-        <base-button class="ticket--button">{{ $t("nav.tickets") }}</base-button>
+        <base-button class="ticket--button" urlTo="https://www.ticketer.ee/barbar-feast-2022">
+          {{ $t("buyTickets") }}
+        </base-button>
       </base-card>
     </section>
     <section class="location">
@@ -38,13 +40,13 @@
         <img class="transport__bus--img" src="/festivalibuss.webp" alt="Metal Travel Agency bus">
         <div class="transport__bus--text">
           <h1 class="title">Metal Travel Agency</h1>
-          <p>FESTIVALIKÜLASTAJAID SÕIDUTAB LIINIL TLN-VK-TLN <a target="_blank" href="https://metaltravel.net/">METAL TRAVEL AGENCY</a> (täpne info peatselt)</p>
+          <p>FESTIVALIKÜLASTAJAID SÕIDUTAB LIINIL TLN-VK-TLN <a target="_blank" href="https://metaltravel.net/" rel="noreferrer">METAL TRAVEL AGENCY</a> (täpne info peatselt)</p>
         </div>
       </base-card>
       <base-card class="transport__parking">
         <div class="transport__parking--text">
           <h1 class="title">{{ $t("parking.title") }}</h1>
-          <p>PARKLA INFO TULEKUL PEATSELT (avame uue & suure telkimisalaga parkla)</p>
+          <p>{{ $t("parking.desc") }}</p>
         </div>
       </base-card>
       <base-card class="transport__third">
@@ -56,6 +58,7 @@
     </section>
     <section class="faq">
       <h1 class="title">{{ $t("faq.title") }}</h1>
+      <the-FAQ></the-FAQ>
     </section>
     <section class="sponsors">
       <h1 class="title">{{ $t("sponsors.title") }}</h1>
@@ -96,12 +99,14 @@
 <script>
 import TheCounter from "../components/layout/TheCounter.vue";
 import TheImageCarousel from "../components/layout/TheImageCarousel.vue";
+import TheFAQ from "../components/layout/TheFAQ.vue";
 
 export default {
   name: 'Home',
   components: {
     TheCounter,
-    TheImageCarousel
+    TheImageCarousel,
+    TheFAQ
   }
 }
 </script>
@@ -125,13 +130,15 @@ export default {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 }
 
 .ticket--button {
   width: 100%;
   font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .location {
@@ -200,6 +207,18 @@ export default {
       min-width: 18rem;
       width: 100%;
     }
+
+    &--text {
+      padding: 0.5rem;
+      a {
+        color: $barbar-red;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__parking {
+    padding: 0.5rem;
   }
 }
 
@@ -236,11 +255,6 @@ export default {
 }
 
 @media only screen and (min-width: 768px) {
-  .welcome {
-    &--counter {
-      width: 70%;
-    }
-  }
 
   .ticket--button {
     width: 70%;
@@ -254,11 +268,10 @@ export default {
     justify-content: space-evenly;
     margin: 1.5rem auto;
     width: 100%;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    flex-wrap: wrap;
 
     &__bus {
-      width: 30%;
+      width: 45%;
       &--img {
         min-width: 18rem;
         width: 100%;
@@ -266,11 +279,12 @@ export default {
     }
 
     &__parking {
-      width: 30%;
+      width: 45%;
     }
 
     &__third {
-      width: 30%;
+      margin: 2rem 1rem 0 1rem;
+      width: 93%;
     }
 }
 }
@@ -311,5 +325,31 @@ export default {
   }
 }
 
+  .transport {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1.5rem auto;
+    width: 100%;
+    flex-wrap: wrap;
+
+    &__bus {
+      width: 30%;
+      &--img {
+        min-width: 18rem;
+        width: 100%;
+      }
+    }
+
+    &__parking {
+      width: 30%;
+    }
+
+    &__third {
+      width: 30%;
+      margin: 0;
+    }
+}
 }
 </style>
