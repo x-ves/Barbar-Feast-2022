@@ -178,15 +178,6 @@ export default {
       margin: 0 auto;
     }
 
-    &--title {
-      color: $main-text-color;
-      margin: 1rem;
-      font-size: 2rem;
-      text-align: center;
-      text-transform: uppercase;
-      background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
-    }
-
     &--desc {
       margin: 0;
       padding: 1rem;
@@ -223,7 +214,11 @@ export default {
 }
 
 .faq {
+  display: flex;
+  flex-direction: column;
   padding: 2rem 0;
+  width: 100%;
+  background: radial-gradient($main-background-color, $secondary-background-color);
   &--title {
       color: $main-text-color;
       margin: 1rem;

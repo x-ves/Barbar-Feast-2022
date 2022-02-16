@@ -1,30 +1,30 @@
 <template>
-  <div class="FAQ">
-    <details class="FAQ__content">
-      <summary class="FAQ__content--question">{{ $t("faq.q1") }}</summary>
-      <p class="FAQ__content--answer">{{ $t("faq.a1") }}</p>
+  <base-card class="FAQ">
+    <details class="FAQ__options">
+      <summary class="FAQ__options--question">{{ $t("faq.q1") }}</summary>
+      <p class="FAQ__options--answer">{{ $t("faq.a1") }}</p>
     </details>
-    <details class="FAQ__content">
-      <summary class="FAQ__content--question">{{ $t("faq.q2") }}</summary>
-      <p class="FAQ__content--answer" v-html="$t('faq.a2')"></p>
+    <details class="FAQ__options">
+      <summary class="FAQ__options--question">{{ $t("faq.q2") }}</summary>
+      <p class="FAQ__options--answer" v-html="$t('faq.a2')"></p>
     </details>
-    <details class="FAQ__content">
-      <summary class="FAQ__content--question">{{ $t("faq.q3") }}</summary>
-      <p class="FAQ__content--answer">{{ $t("faq.a3") }}</p>
+    <details class="FAQ__options">
+      <summary class="FAQ__options--question">{{ $t("faq.q3") }}</summary>
+      <p class="FAQ__options--answer">{{ $t("faq.a3") }}</p>
     </details>
-    <details class="FAQ__content">
-      <summary class="FAQ__content--question">{{ $t("faq.q4") }}</summary>
-      <p class="FAQ__content--answer">{{ $t("faq.a4") }}</p>
+    <details class="FAQ__options">
+      <summary class="FAQ__options--question">{{ $t("faq.q4") }}</summary>
+      <p class="FAQ__options--answer">{{ $t("faq.a4") }}</p>
     </details>
-    <details class="FAQ__content">
-      <summary class="FAQ__content--question">{{ $t("faq.q5") }}</summary>
-      <p class="FAQ__content--answer">{{ $t("faq.a5") }}</p>
+    <details class="FAQ__options">
+      <summary class="FAQ__options--question">{{ $t("faq.q5") }}</summary>
+      <p class="FAQ__options--answer">{{ $t("faq.a5") }}</p>
     </details>
-    <details class="FAQ__content">
-      <summary class="FAQ__content--question">{{ $t("faq.q6") }}</summary>
-      <p class="FAQ__content--answer">{{ $t("faq.a6") }}</p>
+    <details class="FAQ__options">
+      <summary class="FAQ__options--question">{{ $t("faq.q6") }}</summary>
+      <p class="FAQ__options--answer">{{ $t("faq.a6") }}</p>
     </details>
-  </div>
+  </base-card>
 </template>
 
 <script>
@@ -34,18 +34,20 @@ export default {};
 <style lang="scss">
 .FAQ {
   width: 97%;
+  margin: 0 auto;
   height: fit-content;
   padding: 0.5rem;
-  background: $main-background-color;
 
-  &__content {
+  &__options {
+    width: 100%;
     &--question {
       padding: 0.5rem;
-      background-color: $secondary-background-color;
       color: $main-text-color;
       font-weight: 500;
       cursor: pointer;
       transition: all 0.1s;
+      text-align: left;
+      border-bottom: 1px solid rgb(44, 44, 44);
 
       &:focus {
         outline: none;
@@ -63,9 +65,9 @@ export default {};
     }
 
     &--answer {
+      text-align: left;
       margin: 0;
       padding: 0.5rem 1.5rem;
-      background: $main-background-color;
       color: $main-text-color;
     }
   }
@@ -79,7 +81,7 @@ export default {};
 
 @media only screen and (min-width: 1024px) {
   .FAQ {
-    width:100%;
+    width:40%;
   }
 }
 </style>
