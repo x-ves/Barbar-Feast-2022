@@ -6,7 +6,7 @@
     "nav": {
         "home": "Avaleht",
         "lineup": "Bändid",
-        "info": "Info",
+        "info": "Lisainfo",
         "tickets": "Piletid"
     },
     "lineup": {
@@ -14,7 +14,7 @@
         "filter": "Filtrid"
     },
     "info": {
-        "title": "Info"
+        "title": "Lisainfo"
     },
     "footer": {
         "msg": "Barbar Feasti toob teieni rockiklubi Barbar!",
@@ -57,5 +57,47 @@
         "a5": "Absoluutselt, kuid sellegipoolest soovitame ka sularaha kaasa võtta (bändide merch, turul vinge kraam müügil, elekter läheb ära...)",
         "q6": "Kas ma võin...?",
         "a6": "Kui see pole vastuolus Viikingite küla kodukorraga, Eesti Vabariigi põhiseadusega ega riku sind ümbritsevate inimeste ja loomade tervist, vara ega heaolu, siis tõenäoliselt küll. Kui aga mõtteis on miskit pöörast, palun anna meile sellest varakult ette teada."
-      }
+      },
+      "sponsors": {
+          "title": "Sponsorid & Toetajad"
+      },
+      "bands": {
+          "Korpiklaani": "Korpiklaani lühikirjeldus siia",
+          "Bändinimi": "Lühikirjeldus"
+      },
+      "activities": {
+        "intro": "Lisaks elava muusika nautimisele, on Barbar Feastil võimalus enda aega mõnusalt sisustada küllaga! Toome välja mõned pakutavad tegevused:",
+        "axe": {
+            "title": "VISKA VEMPU",
+            "desc": "vibu, ammu ja kirveloopimine (kõige kõveram käsi võidab)"
+        },
+        "splash": {
+            "title": "PLÄRTSATUS",
+            "desc": "festivali alal on kaunis jõgi milles palava ilma korral kümmelda saad!"
+        },
+        "rite": {
+            "title": "RIITUS",
+            "desc": "kui festivalimelust väsid või niisama jalga sirutada soovid siis võta ette retk Siniallikatele – pea seal maha riitus ja ohverda midagi… maagilist :p"
+        },
+        "market": {
+            "title": "TURG",
+            "desc": "on Barbar Feasti lahutamatu osa, kus saad kaupmeestega karastava käraka, parimate roogade, peenete rõivaste ja barbar teab, mille osas veel käed lüüa… isegi juuksed saad pügatud!"
+        },
+        "boat": {
+            "title": "VIIKINGILAEV",
+            "desc": "väljub Jõelava kõrvalt retkele mööda maalilist jõge. Astu ligi, astu laeva ja AHOI!"
+        },
+        "tentshop": {
+            "title": "TELKLA POOD",
+            "desc": "kui söögi ja alkoholivaba joogi saad kenasti telklasse sisse smuugeldada, siis alkoholi mitte. Endale meelepärase käraka võid osta poe hinnaga TELKLA POEST. Kange käraka, veini ja lahja alkoholi valik, vesi, kerget nosimist - kõike seda seal leidub. Kasvõi kastide viisi. Festivali (telkla välisel) alal on ikka festivali hinnad (ja seal telkla poe kraami tarbimine lubatud ei ole). Telkla pood on avatud iga päev kuni 22:00."
+        },
+        "mc": {
+            "title": "MEHKELDA MOTOMEESTEGA",
+            "desc": "Road Devil motoklubi muhedad mehed on Barbar Feasti koostööpartnerid ja aitavad festivali programmi veelgi kirjumaks muuta. Ole üllatusteks valmis!"
+        },
+        "extra": {
+            "title": "LISAKS",
+            "desc": "spontaansed mõõgavõitlused, jooma & söömaorgiad ning, mis peamine – hea muusika, sõbrad & festivalisuvi!"
+        }
+    }
 }

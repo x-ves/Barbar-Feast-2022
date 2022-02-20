@@ -57,5 +57,46 @@
         "a5": "No tottakai, mutta aina on hyvä olla käteistä mukana.",
         "q6": "Voinko minä...?",
         "a6": "No tottakai, kunhan se ei ole Viikinkien kylän järjestyssääntöjen vastainen tai Eesti Tasavallan perustuslain vastainen asia ja ei häiritse lähiympäristössä olevia ihmisiä tai eläimiä, ja jos sinulla on mielessä jotain erikoista, niin anna meille infoa etukäteen, varmati löydämme ratkaisun."
-      }
-}
+      },
+      "sponsors": {
+          "title": "Sponsors & Supporters"
+        },
+        "bands": {
+          "Korpiklaani": "Korpiklaani description",
+          "Bändinimi": "Lühikirjeldus"
+      },
+      "activities": {
+        "axe": {
+            "title": "GET SOME AXETION",
+            "desc": "practice axe throwing & archery"
+        },
+        "splash": {
+            "title": "REFRESH YOURSELF",
+            "desc": "there is a beautiful river in the festival area in which you can bathe during the hot weather"
+        },
+        "rite": {
+            "title": "RITE",
+            "desc": "if you get tired of the festival or just want to stretch your legs, take a trip to the Saula Blue Springs - have a ritual there and sacrifice something... magical :p"
+        },
+        "market": {
+            "title": "MARKET",
+            "desc": "we have a market full of the country's best booze, mouth-watering food, fancy clothes, and hey – you can even dye your hair green :p"
+        },
+        "boat": {
+            "title": "VIKING BOAT",
+            "desc": "take a trip on a viking boat on a mystical river"
+        },
+        "tentshop": {
+            "title": "CAMPING AREA SHOP",
+            "desc": "the  camping area shop (open every day until 22:00) allows you to buy booze with regular shop prices (to be consumed in the camping area, not outside of it). <br> This is mostly because bringing your own booze to the festival grounds and the camping area is not allowed.   However, bringing your own non-alcoholic drinks and food are more than welcome (in the camping area)"
+        },
+        "mc": {
+            "title": "HAVE FUN WITH THE MC",
+            "desc": "the Road Devil MC guys will make the festival program even more magical with some cool games and whatnot – be ready for suprises!"
+        },
+        "extra": {
+            "title": "EXTRA",
+            "desc": "keep your eyes open for any spontaneous swordfights, drinking & eating orgies etc. THAT'S WHAT BARBAR FEAST IS ALL ABOUT"
+        }
+    }
+  }
