@@ -35,20 +35,24 @@
         "header": "Asukoht & info",
         "desc": "BARBAR FEAST 2022 leiab aset maalilises Viikingite Külas, vaid poole tunni sõidu kaugusel Tallinnast. Kolm päeva seda rokkivat festivali toovad sulle 30 parimatest parimat kohalikku rock & metal artisti, 2 lava (üks puidust linnuses (!) ja teine ürgse jõe kaldal), telklatšilli, värskendavad kümblused jões, lõputud peod festivali turualal ning palju muud põnevat + SUVI, SÕBRAD, LIVE MUUSIKA /../. JAH PALUN!",
         "event": "Barbar Feast 2022 Facebook üritus leia",
-        "eventlink": "siit.",
+        "eventlink": "siit",
         "more": "Rohkem infot Viikingite Küla kohta leiab küla",
         "link": "kodulehelt"
     },
     "parking": {
         "title": "Parkimine",
-        "desc": "PARKLA INFO TULEKUL PEATSELT (avame uue & suure telkimisalaga parkla)"
+        "desc": "Asub sellel aastal feAstivali vahetus läheduses ja ruumi on küllaga. Ühe auto parkimine kogu ürituse ajaks maksab 5€/auto. Lisainfo tulekul!"
+    },
+    "camping": {
+        "title": "Telkimine",
+        "desc": "Sellel aastal on feAstivalil lausa 2 telklat! Eelmise aasta telkla muutub VIP telklaks (pääsme saad lunastada ostes Barbarist fännipass, ticketerist VIP pass või lootma sellele, et kohapeal on veel ruumi) ning viimase täitumisel on pea piiramatult ruumi uues jõeäärses telklas. Need külastajad kelle pileti juurde telkla pääse ei kuulu saavad selle lunastada kohapeal, 5€/inimene."
     },
     "faq": {
         "title": "Korduma kippuvad küsimused",
         "q1": "Kus festival toimub?",
         "a1": "BARBAR FEAST 2022 leiab aset maalilises Viikingite Külas, vaid poole tunni sõidu kaugusel Tallinnast",
         "q2": "Kuidas festivalile saab?",
-        "a2": "Jala, (mootor)rattaga, autoga tulijale - ülal ⬆ on lingid juhistele - sihtkoht on Viikingite küla, Saula, 75117 Harju maakond. Samuti leiad ülalt ⬆ infot parklate kohta. <br><br> Lisaks väljub Rockiklubi Barbar eest (Rävala pst 8, 10145 Tallinn) festivali buss \"Hop On Fuck Off\". Infot bussi kohta leiad ülalt! ⬆",
+        "a2": "Jala, (mootor)rattaga, autoga tulijale - ülal on lingid juhistele - sihtkoht on Viikingite küla, Saula, 75117 Harju maakond. Samuti leiad ülalt infot parklate kohta. <br><br> Lisaks väljub Rockiklubi Barbar eest (Rävala pst 8, 10145 Tallinn) festivali buss \"Hop On Fuck Off\". Infot bussi kohta leiad ülalt!",
         "q3": "Kus magada saab?",
         "a3": "Kuigi Viikingite Küla pakub aastaringset elamusmajutust, on neil kõik kohad selleks korraks täitunud. Küll aga on võimalik kasutada telklat, mis on festivali raames TASUTA (festivalipassi hinnas sees).",
         "q4": "Kas oma jookidega saab sisse?",

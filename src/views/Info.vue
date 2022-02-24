@@ -19,28 +19,24 @@ export default {
     return {
       activities: [
         {
-          name: this.$t("activities.axe.title"),
-          desc: this.$t("activities.axe.desc")
+          name: this.$t("activities.market.title"),
+          desc: this.$t("activities.market.desc")
+        },
+        {
+          name: this.$t("activities.tentshop.title"),
+          desc: this.$t("activities.tentshop.desc")
         },
         {
           name: this.$t("activities.splash.title"),
           desc: this.$t("activities.splash.desc")
         },
         {
-          name: this.$t("activities.rite.title"),
-          desc: this.$t("activities.rite.desc")
-        },
-        {
-          name: this.$t("activities.market.title"),
-          desc: this.$t("activities.market.desc")
+          name: this.$t("activities.axe.title"),
+          desc: this.$t("activities.axe.desc")
         },
         {
           name: this.$t("activities.boat.title"),
           desc: this.$t("activities.boat.desc")
-        },
-        {
-          name: this.$t("activities.tentshop.title"),
-          desc: this.$t("activities.tentshop.desc")
         },
         {
           name: this.$t("activities.mc.title"),

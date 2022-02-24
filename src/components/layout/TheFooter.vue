@@ -125,6 +125,7 @@ export default {};
     p {
       text-align: center;
       margin: 0;
+      width: 18rem;
     }
 
     a {
@@ -161,6 +162,7 @@ export default {};
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     text-align: left;
     width: fit-content;
     height: 5rem;
@@ -195,6 +197,7 @@ export default {};
 
     &__socials {
       margin: 0;
+      align-items: flex-start;
     }
 
     &__contacts {

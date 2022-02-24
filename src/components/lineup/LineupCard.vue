@@ -96,6 +96,7 @@ export default {
       display: flex;
       flex-direction: column;
       margin: 0.5rem;
+      width: 19rem;
 
       &:hover {
         background: $barbar-red;
@@ -103,8 +104,8 @@ export default {
     }
 
     &--img {
-      width: 300px;
-      height: 200px;
+      max-width: 20rem;
+      height: 14rem;
       background: $main-background-color;
       object-fit: cover;
     }
@@ -119,6 +120,7 @@ export default {
       }
       span {
         margin: 0;
+        width: 18rem;
       }
     }
 }

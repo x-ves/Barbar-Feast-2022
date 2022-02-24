@@ -29,7 +29,7 @@
             <a href="https://www.viikingitekyla.ee/" target="_blank">{{
               $t("location.link")
             }}</a
-            >. <br /><br />
+            > <br /><br />
           </p>
         </div>
       </div>
@@ -43,16 +43,16 @@
           <p>FESTIVALIKÜLASTAJAID SÕIDUTAB LIINIL TLN-VK-TLN <a target="_blank" href="https://metaltravel.net/" rel="noreferrer">METAL TRAVEL AGENCY</a> (täpne info peatselt)</p>
         </div>
       </base-card>
+      <base-card class="transport__camping">
+        <div class="transport__camping--text">
+          <h1 class="title">{{ $t("camping.title") }}</h1>
+          <p>{{ $t("camping.desc") }}</p>
+        </div>
+      </base-card>
       <base-card class="transport__parking">
         <div class="transport__parking--text">
           <h1 class="title">{{ $t("parking.title") }}</h1>
           <p>{{ $t("parking.desc") }}</p>
-        </div>
-      </base-card>
-      <base-card class="transport__third">
-        <div class="transport__third--text">
-          <h1 class="title">{{ $t("third.title") }}</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis neque praesentium modi, consequatur assumenda mollitia alias nulla optio eveniet, deleniti fugit, excepturi officia dolore. Ullam culpa magni tempora officiis veritatis?</p>
         </div>
       </base-card>
     </section>
@@ -87,7 +87,7 @@
         <a target="_blank" href="https://www.facebook.com/barbarestonia"
           ><img
             class="sponsors--img"
-            src="@/assets/Barbar-transparent.webp"
+            src="@/assets/Barbar-transparent-white.webp"
             alt=""
             loading="lazy"
         /></a>
@@ -231,6 +231,7 @@ export default {
 
 .sponsors {
   padding: 2rem 0;
+  width: 100%;
   &--title {
       color: $main-text-color;
       margin: 1rem;
@@ -242,6 +243,7 @@ export default {
 
   &--img {
     width: 10rem;
+    margin: 1rem;
   }
 }
 
@@ -277,7 +279,7 @@ export default {
       width: 45%;
     }
 
-    &__third {
+    &__camping {
       margin: 2rem 1rem 0 1rem;
       width: 93%;
     }
@@ -341,7 +343,7 @@ export default {
       width: 30%;
     }
 
-    &__third {
+    &__camping {
       width: 30%;
       margin: 0;
     }

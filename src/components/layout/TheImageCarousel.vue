@@ -19,23 +19,23 @@ export default {
     return {
       slides: [
         {
-            imgUrl: "/fortstage-lochlainn.webp",
+            imgUrl: "/carousel/fortstage-lochlainn.webp",
             author: "Lochlainn Warren"
         },
         {
-            imgUrl: "/riverstage-lochlainn.webp",
+            imgUrl: "/carousel/riverstage-lochlainn.webp",
             author: "Lochlainn Warren"
         },
         {
-            imgUrl: "/j6gi-JalmarV2in.webp",
+            imgUrl: "/carousel/j6gi-JalmarV2in.webp",
             author: "Jalmar Väin"
         },
         {
-            imgUrl: "/linnusetorn-JalmarV2in.webp",
+            imgUrl: "/carousel/linnusetorn-JalmarV2in.webp",
             author: "Jalmar Väin"
        },
        {
-           imgUrl: "/fortfuntime-lochlainn.webp",
+           imgUrl: "/carousel/fortfuntime-lochlainn.webp",
            author: "Lochlainn Warren"
        }
       ],

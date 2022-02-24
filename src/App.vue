@@ -82,10 +82,15 @@ body {
   font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
-  background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
+  background: $barbar-red;
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+  .title {
+    background: linear-gradient(45deg, transparent 20%, $barbar-red 0, $barbar-red 80%, transparent 0);
+  }
+}
 
 @media only screen and (min-width: 1024px) {}
 </style>

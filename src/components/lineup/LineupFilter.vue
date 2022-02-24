@@ -49,7 +49,8 @@ export default {
 
     .filter {
         padding-bottom: 1.5rem;
-        width: 90%;
+        width: 95%;
+        margin: 0.5rem;
 
         &--option {
             margin: 0.1rem 0.25rem;
