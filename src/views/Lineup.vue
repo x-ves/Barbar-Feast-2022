@@ -1,6 +1,6 @@
 <template>
   <section class="lineup">
-    <h1 class="title">{{ $t("lineup.title") }}</h1>
+    <base-title>{{ $t("lineup.title") }}</base-title>
     <section class="lineup--content">
     <LineupFilter class="lineup--filter" @change-filter="setFilters"/>
     <div class="lineup--cards">
@@ -73,12 +73,8 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 3rem;
     width: 100%;
-
-    .title {
-      width: 16rem;
-    }
 
     &--content {
       display: flex;

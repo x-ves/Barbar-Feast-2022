@@ -1,6 +1,6 @@
 <template>
     <section class="info">
-        <h1 class="title">{{ $t("info.title") }}</h1>
+      <base-title>{{ $t("info.title") }}</base-title>
         <section class="info__content">
           <base-card class="activities">
           <p class="activities--intro">{{ $t("activities.intro") }}</p>

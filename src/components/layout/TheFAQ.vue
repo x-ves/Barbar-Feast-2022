@@ -34,7 +34,7 @@ export default {};
 <style lang="scss">
 .FAQ {
   width: 97%;
-  margin: 0 auto;
+  margin: 1rem auto;
   height: fit-content;
   padding: 0.5rem;
 

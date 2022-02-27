@@ -8,6 +8,7 @@ import loadLocaleMessages from "./i18n";
 
 import BaseButton from "./components/UI/BaseButton.vue";
 import BaseCard from "./components/UI/BaseCard.vue";
+import BaseTitle from "./components/UI/BaseTitle.vue";
 
 import TheMap from "./components/layout/TheMap.vue";
 
@@ -32,6 +33,7 @@ app.use(i18n);
 
 app.component("base-button", BaseButton);
 app.component("base-card", BaseCard);
+app.component("base-title", BaseTitle);
 app.component("font-awesome-icon", FontAwesomeIcon);
 app.component("the-map", TheMap);
 

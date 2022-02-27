@@ -1,6 +1,6 @@
 <template>
   <div class="counter">
-    <h1 class="title">{{ $t("counter.gates") }}</h1>
+    <base-title>{{ $t("counter.gates") }}</base-title>
     <div class="counter__time">
       <div class="counter__time__days">
         <span class="counter__time__num">{{ displayDays }}</span>
@@ -82,11 +82,8 @@ export default {
 <style lang="scss" scoped>
 .counter {
   margin: 1rem 0 0.5rem 0;
-
-  .title {
-    margin: 0;
-    padding: 0;
-  }
+  display: flex;
+  flex-direction: column;
 
   &__time {
     display: flex;

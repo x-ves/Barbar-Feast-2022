@@ -32,7 +32,7 @@
         "noFilters": "Vali vähemalt üks filter!"
     },
     "location": {
-        "header": "Paikka",
+        "title": "Paikka",
         "desc": "Barbar Feast 2022 on tänä vuonna Viikinkien kylässä - Kose kunnassa, tarkalleen Saula kylässä. Festivaalilla on kaksi lavaa, siis artisteille, - toinen on linnakkeen sisällä ja toinen joen rannalla. Lisäksi festivaalialueelta löytyy myyntialue, josta saa ostaa bändikamaa, paitoja yms, sekä ruokaa ja juotavaa. Lisäksi kaikenlaista tekemistä pitkin päivää, jotka sisältyvät festaripassiin!",
         "event": "Barbar Feast Facebook tapahtuma",
         "eventlink": "tässä",

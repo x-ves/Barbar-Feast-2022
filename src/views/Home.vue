@@ -15,7 +15,7 @@
           <the-image-carousel />
         </div>
         <div class="location__content--text">
-          <h1 class="title">{{ $t("location.header") }}</h1>
+        <base-title>{{ $t("location.title") }}</base-title>
           <p class="location__content--desc">
             <span v-html="$t('location.desc')"></span> <br /><br />
             {{ $t("location.event") }}
@@ -39,29 +39,29 @@
       <base-card class="transport__bus">
         <img class="transport__bus--img" src="/festivalibuss.webp" alt="Metal Travel Agency bus">
         <div class="transport__bus--text">
-          <h1 class="title">Metal Travel Agency</h1>
+          <base-title>{{ $t("bus.title") }}</base-title>
           <p>FESTIVALIKÜLASTAJAID SÕIDUTAB LIINIL TLN-VK-TLN <a target="_blank" href="https://metaltravel.net/" rel="noreferrer">METAL TRAVEL AGENCY</a> (täpne info peatselt)</p>
         </div>
       </base-card>
       <base-card class="transport__camping">
         <div class="transport__camping--text">
-          <h1 class="title">{{ $t("camping.title") }}</h1>
+        <base-title>{{ $t("camping.title") }}</base-title>
           <p>{{ $t("camping.desc") }}</p>
         </div>
       </base-card>
       <base-card class="transport__parking">
         <div class="transport__parking--text">
-          <h1 class="title">{{ $t("parking.title") }}</h1>
+          <base-title>{{ $t("parking.title") }}</base-title>
           <p>{{ $t("parking.desc") }}</p>
         </div>
       </base-card>
     </section>
     <section class="faq">
-      <h1 class="title">{{ $t("faq.title") }}</h1>
+      <base-title>{{ $t("faq.title") }}</base-title>
       <the-FAQ></the-FAQ>
     </section>
     <section class="sponsors">
-      <h1 class="title">{{ $t("sponsors.title") }}</h1>
+      <base-title>{{ $t("sponsors.title") }}</base-title>
       <div class="sponsors__wrapper">
         <a target="_blank" href="https://www.hbrebel.cz/en/"
           ><img
@@ -201,6 +201,10 @@ export default {
 
     &--text {
       padding: 0.5rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       a {
         color: $barbar-red;
         text-decoration: none;
@@ -208,15 +212,29 @@ export default {
     }
   }
 
+  &__camping {
+    padding: 0.5rem;
+    &--text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
   &__parking {
     padding: 0.5rem;
+    &--text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
 
 .faq {
   display: flex;
   flex-direction: column;
-  padding: 2rem 0;
+  padding: 2rem 0.5rem;
   width: 100%;
   background: radial-gradient($main-background-color, $secondary-background-color);
   &--title {
@@ -230,8 +248,11 @@ export default {
 }
 
 .sponsors {
-  padding: 2rem 0;
+  padding: 2rem 0.5rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+
   &--title {
       color: $main-text-color;
       margin: 1rem;
@@ -275,11 +296,11 @@ export default {
       }
     }
 
-    &__parking {
+    &__camping {
       width: 45%;
     }
 
-    &__camping {
+    &__parking {
       margin: 2rem 1rem 0 1rem;
       width: 93%;
     }
