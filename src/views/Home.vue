@@ -36,25 +36,19 @@
       <the-map />
     </section>
     <section class="transport">
-      <base-card class="transport__bus">
-        <img class="transport__bus--img" src="/festivalibuss.webp" alt="Metal Travel Agency bus">
-        <div class="transport__bus--text">
-          <base-title>{{ $t("bus.title") }}</base-title>
-          <p>FESTIVALIKÜLASTAJAID SÕIDUTAB LIINIL TLN-VK-TLN <a target="_blank" href="https://metaltravel.net/" rel="noreferrer">METAL TRAVEL AGENCY</a> (täpne info peatselt)</p>
-        </div>
-      </base-card>
-      <base-card class="transport__camping">
-        <div class="transport__camping--text">
-        <base-title>{{ $t("camping.title") }}</base-title>
-          <p>{{ $t("camping.desc") }}</p>
-        </div>
-      </base-card>
-      <base-card class="transport__parking">
-        <div class="transport__parking--text">
-          <base-title>{{ $t("parking.title") }}</base-title>
-          <p>{{ $t("parking.desc") }}</p>
-        </div>
-      </base-card>
+      <the-transport-card>
+        <template v-slot:img><img class="transport__bus--img" src="/festivalibuss.webp" alt="Metal Travel Agency bus"></template>
+        <template v-slot:title>{{ $t("bus.title") }}</template>
+        <template v-slot:desc>{{ $t("bus.desc") }}</template>
+      </the-transport-card>
+      <the-transport-card>
+        <template v-slot:title>{{ $t("camping.title") }}</template>
+        <template v-slot:desc>{{ $t("camping.desc") }}</template>
+      </the-transport-card>
+      <the-transport-card id="parkingCard">
+        <template v-slot:title>{{ $t("parking.title") }}</template>
+        <template v-slot:desc>{{ $t("parking.desc") }}</template>
+      </the-transport-card>
     </section>
     <section class="faq">
       <base-title>{{ $t("faq.title") }}</base-title>
@@ -100,13 +94,15 @@
 import TheCounter from "../components/layout/TheCounter.vue";
 import TheImageCarousel from "../components/layout/TheImageCarousel.vue";
 import TheFAQ from "../components/layout/TheFAQ.vue";
+import TheTransportCard from "../components/layout/TheTransportCard.vue";
 
 export default {
   name: 'Home',
   components: {
     TheCounter,
     TheImageCarousel,
-    TheFAQ
+    TheFAQ,
+    TheTransportCard
   }
 }
 </script>
@@ -131,6 +127,7 @@ export default {
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
+    align-items: center;
   }
 }
 
@@ -146,6 +143,7 @@ export default {
   font-size: 1.1rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: radial-gradient($main-background-color, $secondary-background-color);
 
   a {
@@ -174,6 +172,7 @@ export default {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
       width: 97%;
       margin: 0 auto;
     }
@@ -211,24 +210,6 @@ export default {
       }
     }
   }
-
-  &__camping {
-    padding: 0.5rem;
-    &--text {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-
-  &__parking {
-    padding: 0.5rem;
-    &--text {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
 }
 
 .faq {
@@ -263,7 +244,7 @@ export default {
   }
 
   &--img {
-    width: 10rem;
+    height: 10rem;
     margin: 1rem;
   }
 }
@@ -288,19 +269,7 @@ export default {
     width: 100%;
     flex-wrap: wrap;
 
-    &__bus {
-      width: 45%;
-      &--img {
-        min-width: 18rem;
-        width: 100%;
-      }
-    }
-
-    &__camping {
-      width: 45%;
-    }
-
-    &__parking {
+    #parkingCard {
       margin: 2rem 1rem 0 1rem;
       width: 93%;
     }
@@ -338,7 +307,7 @@ export default {
     }
 
     &--text {
-      width: 50%;
+      width: 47%;
     }
   }
 }
@@ -346,28 +315,15 @@ export default {
   .transport {
     padding: 2rem 0;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    align-content: center;
     margin: 1.5rem auto;
     width: 100%;
-    flex-wrap: wrap;
 
-    &__bus {
-      width: 30%;
-      &--img {
-        min-width: 18rem;
-        width: 100%;
-      }
-    }
-
-    &__parking {
-      width: 30%;
-    }
-
-    &__camping {
-      width: 30%;
-      margin: 0;
-    }
+  #parkingCard {
+    margin: 0;
+    width: 30%;
+  }
 }
 }
 </style>

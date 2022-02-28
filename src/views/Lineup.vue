@@ -73,7 +73,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 3rem;
+    padding: 3rem 0.5rem 0 0.5rem;
     width: 100%;
 
     &--content {

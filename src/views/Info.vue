@@ -57,14 +57,10 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 3rem;
+    padding: 3rem 0.5rem 0 0.5rem;
     width: 100%;
     font-weight: 500;
     text-align: left;
-
-    .title {
-      width: 16rem;
-    }
 
     &__content {
       display: flex;
@@ -76,7 +72,7 @@ export default {
 
   .activities {
     width: 95%;
-    margin-bottom: 2rem;
+    margin: 1.5rem 0;
 
     &--intro {
       padding: 0 1rem;

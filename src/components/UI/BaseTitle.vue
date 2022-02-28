@@ -10,7 +10,7 @@
 .title {
   display: flex;
   align-items: center;
-  align-self: center;
+  justify-content: center;
   width: 100%;
 
   &--text {
@@ -27,6 +27,10 @@
 
 @media only screen and (min-width: 768px) {
   .title {
+    &--text {
+      width: 40rem;
+    }
+
     &--bg-left {
       display: inline-block;
       border-top: 1.32rem solid transparent;

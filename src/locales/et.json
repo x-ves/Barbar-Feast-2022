@@ -39,6 +39,10 @@
         "more": "Rohkem infot Viikingite Küla kohta leiab küla",
         "link": "kodulehelt"
     },
+    "bus": {
+        "title": "Festivalibuss",
+        "desc": "FESTIVALIKÜLASTAJAID SÕIDUTAB LIINIL TLN-VK-TLN METAL TRAVEL AGENCY (täpne info peatselt)"
+    },
     "parking": {
         "title": "Parkimine",
         "desc": "Asub sellel aastal feAstivali vahetus läheduses ja ruumi on küllaga. Ühe auto parkimine kogu ürituse ajaks maksab 5€/auto. Lisainfo tulekul!"
