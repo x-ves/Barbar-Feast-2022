@@ -71,7 +71,30 @@
       },
       "bands": {
           "Korpiklaani": "Korpiklaani lühikirjeldus siia",
-          "Bändinimi": "Lühikirjeldus"
+          "Untsakad": "",
+          "Mandoterror": "",
+          "J.M.K.E.": "",
+          "Evestus": "",
+          "Singer Vinger": "",
+          "Mört": "",
+          "DND": "",
+          "Thou Shell of Death": "",
+          "August Urr": "",
+          "Hukkunud Hinged": "",
+          "Killhall": "",
+          "Bestia": "",
+          "Deformation": "",
+          "Tankist": "",
+          "Valem Vale": "",
+          "Red Zeppelin": "",
+          "Black Royal (FIN)": "",
+          "Räpina Jack": "",
+          "Raev": "",
+          "Sky Down": "",
+          "Rattlecan Paintjob": "",
+          "Faraday": "",
+          "Fööniks": "",
+          "TBA": ""
       },
       "activities": {
         "intro": "Lisaks elava muusika nautimisele, on Barbar Feastil võimalus enda aega mõnusalt sisustada küllaga! Toome välja mõned pakutavad tegevused:",
@@ -82,10 +105,6 @@
         "splash": {
             "title": "PLÄRTSATUS",
             "desc": "festivali alal on kaunis jõgi milles palava ilma korral kümmelda saad!"
-        },
-        "rite": {
-            "title": "RIITUS",
-            "desc": "kui festivalimelust väsid või niisama jalga sirutada soovid siis võta ette retk Siniallikatele – pea seal maha riitus ja ohverda midagi… maagilist :p"
         },
         "market": {
             "title": "TURG",

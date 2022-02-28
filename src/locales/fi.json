@@ -39,9 +39,17 @@
         "more": "Lisätietoja Viikinkien kylästä löydät",
         "link": "kotisivulta"
     },
+    "bus": {
+        "title": "Festival bus",
+        "desc": ""
+    },
     "parking": {
         "title": "Parking",
         "desc": "Parking information coming soon! (We'll be opening a big new camping ground x parking lot)"
+    },
+    "camping": {
+        "title": "Camping",
+        "desc": "This year our feAstival presents 2 camping grounds! Last year's camping ground transforms into the new VIP camping ground (entrance granted by the fan pass bought from Barbar Rockclub, the VIP pass from Ticketer or by being fast on spot when there's room left for you). If the VIP camping ground is full, the space won't run out in the new camping ground right next to the river.  Those whose tickets do not include a spot in either of these camping grounds, can buy a camping pass separately for 5€/person."
     },
     "faq": {
         "title": "Usein kysytyt kysymykset",
@@ -60,11 +68,34 @@
       },
       "sponsors": {
           "title": "Sponsors & Supporters"
-        },
-        "bands": {
-          "Korpiklaani": "Korpiklaani description",
-          "Bändinimi": "Lühikirjeldus"
-      },
+    },
+    "bands": {
+        "Korpiklaani": "Korpiklaani description here",
+        "Untsakad": "",
+        "Mandoterror": "",
+        "J.M.K.E.": "",
+        "Evestus": "",
+        "Singer Vinger": "",
+        "Mört": "",
+        "DND": "",
+        "Thou Shell of Death": "",
+        "August Urr": "",
+        "Hukkunud Hinged": "",
+        "Killhall": "",
+        "Bestia": "",
+        "Deformation": "",
+        "Tankist": "",
+        "Valem Vale": "",
+        "Red Zeppelin": "",
+        "Black Royal (FIN)": "",
+        "Räpina Jack": "",
+        "Raev": "",
+        "Sky Down": "",
+        "Rattlecan Paintjob": "",
+        "Faraday": "",
+        "Fööniks": "",
+        "TBA": ""
+    },
       "activities": {
         "axe": {
             "title": "GET SOME AXETION",
@@ -73,10 +104,6 @@
         "splash": {
             "title": "REFRESH YOURSELF",
             "desc": "there is a beautiful river in the festival area in which you can bathe during the hot weather"
-        },
-        "rite": {
-            "title": "RITE",
-            "desc": "if you get tired of the festival or just want to stretch your legs, take a trip to the Saula Blue Springs - have a ritual there and sacrifice something... magical :p"
         },
         "market": {
             "title": "MARKET",
