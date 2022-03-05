@@ -79,7 +79,7 @@
           ></span
         >
       </div>
-      <a target="_blank" href="https://xves.rocks"
+      <a target="_blank" href="https://veske.ee/"
         ><img
           style="position: fixed; right: 1px; bottom: 1px; width: 35px; height: 35px; transform: rotate(-45deg);"
           src="@/assets/1.webp"
