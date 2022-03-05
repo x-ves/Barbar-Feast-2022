@@ -84,6 +84,7 @@ export default {
   margin: 1rem 0 0.5rem 0;
   display: flex;
   flex-direction: column;
+  width: 100%;
 
   &__time {
     display: flex;
@@ -119,12 +120,6 @@ export default {
     .counter {
       display: flex;
       flex-direction: column;
-
-      &__title {
-        margin: 0 0 0.5rem 0;
-        font-size: $heading-font-size;
-        font-weight: 700;
-      }
 
       &__time {
         display: flex;
