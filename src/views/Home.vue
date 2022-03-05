@@ -37,15 +37,17 @@
     </section>
     <section class="transport">
       <the-transport-card>
-        <template v-slot:img><img class="transport__bus--img" src="/festivalibuss.webp" alt="Metal Travel Agency bus"></template>
+        <template v-slot:img><img class="transportCard--img" src="/festivalibuss.webp" alt="Metal Travel Agency bus"></template>
         <template v-slot:title>{{ $t("bus.title") }}</template>
         <template v-slot:desc>{{ $t("bus.desc") }}</template>
       </the-transport-card>
       <the-transport-card>
+        <template v-slot:img><img class="transportCard--img" src="/telkla.webp" alt=""></template>
         <template v-slot:title>{{ $t("camping.title") }}</template>
         <template v-slot:desc>{{ $t("camping.desc") }}</template>
       </the-transport-card>
       <the-transport-card id="parkingCard">
+        <template v-slot:img><img class="transportCard--img" src="/parkla.webp" alt=""></template>
         <template v-slot:title>{{ $t("parking.title") }}</template>
         <template v-slot:desc>{{ $t("parking.desc") }}</template>
       </the-transport-card>
@@ -187,28 +189,18 @@ export default {
 }
 
 .transport {
-  padding: 2rem 0;
+/*   padding: 2rem 0; */
   display: flex;
   flex-direction: column;
   width: 100%;
+}
 
-  &__bus {
-    &--img {
-      min-width: 18rem;
-      width: 100%;
-    }
-
-    &--text {
-      padding: 0.5rem;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      a {
-        color: $barbar-red;
-        text-decoration: none;
-      }
-    }
+.transportCard {
+  &--img {
+    min-width: 18rem;
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
   }
 }
 
