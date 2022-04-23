@@ -33,7 +33,7 @@
     },
     "location": {
         "title": "Asukoht & info",
-        "desc": "BARBAR FEAST 2022 leiab aset maalilises Viikingite Külas, vaid poole tunni sõidu kaugusel Tallinnast. Kolm päeva seda rokkivat festivali toovad sulle 30 parimatest parimat kohalikku rock & metal artisti, 2 lava (üks puidust linnuses (!) ja teine ürgse jõe kaldal), telklatšilli, värskendavad kümblused jões, lõputud peod festivali turualal ning palju muud põnevat + SUVI, SÕBRAD, LIVE MUUSIKA /../. JAH PALUN!",
+        "desc": "BARBAR FEAST 2022 leiab aset maalilises Viikingite Külas, vaid poole tunni sõidu kaugusel Tallinnast. Kolm päeva rokkivat festivali toovad sinuni 26 särava rock & metal artisti kontserdid 2 laval (üks puidust linnuses (!) ja teine ürgse jõe kaldal), telklatšilli, värskendavad kümblused jões, lõputud peod festivali turualal ning palju muud põnevat + SUVI, SÕBRAD, LIVE MUUSIKA /../. JAH PALUN!",
         "event": "Barbar Feast 2022 Facebook üritus leia",
         "eventlink": "siit",
         "more": "Rohkem infot Viikingite Küla kohta leiab küla",
@@ -49,16 +49,16 @@
     },
     "camping": {
         "title": "Telkimine",
-        "desc": "Sellel aastal on feAstivalil lausa 2 telklat! Eelmise aasta telkla muutub VIP telklaks (pääsme saad lunastada ostes Barbarist fännipass, ticketerist VIP pass või lootma sellele, et kohapeal on veel ruumi) ning viimase täitumisel on pea piiramatult ruumi uues jõeäärses telklas. Need külastajad kelle pileti juurde telkla pääse ei kuulu saavad selle lunastada kohapeal, 5€/inimene."
+        "desc": "Sel aastal on feAstivalil lausa 2 telklat! Eelmise aasta telkla muutub VIP telklaks (pääsme saad lunastada ostes Barbarist fännipass, ticketerist VIP pass või lootma sellele, et kohapeal on veel ruumi) ning viimase täitumisel on pea piiramatult ruumi uues jõeäärses telklas. Need külastajad kelle pileti juurde telkla pääse ei kuulu saavad selle lunastada kohapeal, 5€/inimene."
     },
     "faq": {
         "title": "Korduma kippuvad küsimused",
         "q1": "Kus festival toimub?",
         "a1": "BARBAR FEAST 2022 leiab aset maalilises Viikingite Külas, vaid poole tunni sõidu kaugusel Tallinnast",
         "q2": "Kuidas festivalile saab?",
-        "a2": "Jala, (mootor)rattaga, autoga tulijale - ülal on lingid juhistele - sihtkoht on Viikingite küla, Saula, 75117 Harju maakond. Samuti leiad ülalt infot parklate kohta. <br><br> Lisaks väljub Rockiklubi Barbar eest (Rävala pst 8, 10145 Tallinn) festivali buss \"Hop On Fuck Off\". Infot bussi kohta leiad ülalt!",
+        "a2": "Jala, (mootor)rattaga, autoga tulijale - sihtkoht on Viikingite küla, Saula, 75117 Harju maakond. Parklainfo ülal. <br><br> Lisaks väljub Rockiklubi Barbar eest (Rävala pst 8, 10145 Tallinn) Metal Travel Agency festivalibuss. Infot bussi kohta leiad ülalt.",
         "q3": "Kus magada saab?",
-        "a3": "Kuigi Viikingite Küla pakub aastaringset elamusmajutust, on neil kõik kohad selleks korraks täitunud. Küll aga on võimalik kasutada telklat, mis on festivali raames TASUTA (festivalipassi hinnas sees).",
+        "a3": "Kuigi Viikingite Küla pakub aastaringset elamusmajutust, on neil kõik kohad selleks korraks täitunud. Küll aga on võimalik kasutada telklat (vt telkla infot ülalt).",
         "q4": "Kas oma jookidega saab sisse?",
         "a4": "Ei saa, aga avatud on Telkla Pood (hea valik, mõistlikud hinnad, joogid just telklas tarbimiseks)",
         "q5": "Kas kaardiga saab maksta?",
@@ -70,31 +70,32 @@
           "title": "Sponsorid & Toetajad"
       },
       "bands": {
-          "Korpiklaani": "Korpiklaani lühikirjeldus siia",
-          "Untsakad": "",
-          "Mandoterror": "",
-          "J.M.K.E.": "",
-          "Evestus": "",
-          "Singer Vinger": "",
-          "Mört": "",
-          "DND": "",
-          "Thou Shell of Death": "",
-          "August Urr": "",
-          "Hukkunud Hinged": "",
-          "Killhall": "",
-          "Bestia": "",
-          "Deformation": "",
-          "Tankist": "",
-          "Valem Vale": "",
-          "Red Zeppelin": "",
-          "Black Royal (FIN)": "",
-          "Räpina Jack": "",
-          "Raev": "",
-          "Sky Down": "",
-          "Rattlecan Paintjob": "",
-          "Faraday": "",
-          "Fööniks": "",
-          "TBA": ""
+          "Korpiklaani (FIN)": "Maailma Folk Metal lipulaev! Metsatöllu Markus ütleb bändi kohta nii: \"Maailma nr 1 folk metal bänd. Isiksused kelle üks osa ongi folk ja teine osa Rock and Roll. Vahel ollakse tõsised ka. Aga mitte Barbar Feastil!\"",
+          "Untsakad": "Kui mängivad Untsakad siis ununeb argihall ja algab pidu! Bänd mis sobib raskemuusika festivalile raskelt hästi!",
+          "Mandoterror": "Palju ei ole Eestis rokkbände kel taskus kuldplaat. Kuldaväärt muusikat ja nauditavat kontsertelamust pakuvad mehed sirge seljaga kohe kindlasti",
+          "JMKE": "Eesti punk legend väisab barbarite ja viikingite kantsi. Lõpptulemuses saad veenuda vaid sina ise (see saab olema sigahea)",
+          "Evestus": "\"Kadugu piirid!\" ütleb Evestus ja aerutab paati kord industriaalroki, kord popmuusika laineharjal. Selle suve ainus kontsert peale kolmeaastast esinemispausi, vaid Barbar Feastil!",
+          "Singer Vinger": "Singer Vingeriga pead sa sambat tantsida saama ja kohe kindlasti kohas kuhu nad 100% kuuluvad - suvise rokkfestari programmi. Legendaarsed mehed, õppinud riistad!",
+          "Mört": "Nad ütlevad, et see on metsast pärit punk & roll. Tõik, et bänd tituleeriti Eesti 2021 aasta parimaks bändiks viitab asjaolule, et karjed metsast kostusid nii maale kui ka linna ja nõnda mängiti end raskemuusika fännide südamesse!",
+          "DND": "Kontserdilt koju ei taha veel minna... hakkab kohe peas ümisema, kui keegi DND nime mainib. Tumedalt meloodiline, stiilselt alternatiivne. Selle suve ainus kontsert, loomulikult Barbar Feastil!",
+          "Thou Shell of Death": "Atmosfäärne black metal. Bänd mille kontserdid on peensusteni läbi mõeldud ning sooritusel allahindlust ei tehta. Meisterlikult minimalistlikule muusikakäsitlusele lisab mõõdet bändi esinemistele omane majesteetlik valgusmäng",
+          "August Urr": "Folk punk. Joviaalselt teravmeelne. Iirilikult eestlaslik. Hea! Toimib!!",
+          "Hukkunud Hinged": "7 aastat vaikust on läbi saamas. Hukkunud Hinged tähistab oma 15. ängi- ja vaikuseaastat selle suve ainsa kontserdiga Barbar Feastil!",
+          "Killhall (FIN/EST)": "Metal Soomest ja Eestist. Raske ja peatamatu",
+          "Bestia": "Paganlik black metal riitus mille manamiseks on koht ainuõige. Karusõdalane, ärka!",
+          "Deformation": "Hardcore litakas otse vastu nägu!",
+          "Tankist": "Avanthrash! Vanakooli thrash metal, mis ühel hetkel käitub žanri reeglitele kohaselt, teisel aga paiskab kõik kaosesse.",
+          "Valem Vale": "Koolivendadest koosnevale raskeroki ansamblile pani nime bändi laulja Meelis Hainsoo (Kosmikud), kes viiuldajate laagris soris matemaatikaõpetaja sahtlis ja leidis kotitäie templeid, mida õpetaja kasutas tõenäoliselt tööde parandamisel. Teiste hulgas ka tempel \"valem vale\"",
+          "Red Zeppelin": "Eesti oma Led Zeppelini tribute bänd. Kvaliteetne rokiklassika leekpunaste juustega!",
+          "Nuclear Monarch": "Death & doom metalit Tallinnast! Esmakordselt 10 aastase tegusemise järel esineb bänd festivalil, et tuua teieni juba tuttavaks saanud lugusid, kui ka päris uut (raskelt head) muusikat!",
+          "Black Royal (FIN)": "Kui sa otsid Motörheadi inkarnatsiooni aga seda tiba saatanlikumas ja aeglasemas vormis siis see bänd on SEE! Death, doom & sludge otse Soomest.",
+          "Räpina Jack": "Räpina Jack on kui mõnusalt värskendav briis kodumaises muusikataevas. See on suurepärane näide kuidas kaks ägedat ja omanäolist artisti suudavad täita mistahes suurusega lava võimsa ja mitmekesise showga.",
+          "Raev": "Pärnumaa thrash metal bänd, mis on eeskuju võtnud metali suurnimedelt ja kokku sulatanud enda soundi. Muusika on kiire ja agressiivne. Kõrvu jäävad kumisema raevukad riffid, eepilised soolod, mürisevad trummid ning käre eestikeelne vokaal.",
+          "Sky Down": "Bänd, mis hoiab oma loomingus kõrgel kohal vanakooli heavy metal hiilguse. Võimsad riffid, meloodilised kidrasoolod ja vägev naisvokaal kõmisemas üle kõige.",
+          "Rattlecan Paintjob": "Meeliergutav rulapunkrock Kilulinnast. Tõmbab käima iga suvise peo 1-2-3!",
+          "Faraday": "Ehe Eesti rockiklassika kaasaaegsel kujul!",
+          "Fööniks": "Hea minekuga eestikeelne rokkbänd, mida juhib õigel teel ei keegi muu, kui Elmar Liitmaa",
+          "Barbar Feast Battle võitja": "Siia tuleb auväärt Barbar Feast Battle võitja info"
       },
       "activities": {
         "intro": "Lisaks elava muusika nautimisele, on Barbar Feastil võimalus enda aega mõnusalt sisustada küllaga! Toome välja mõned pakutavad tegevused:",
@@ -117,10 +118,6 @@
         "tentshop": {
             "title": "TELKLA POOD",
             "desc": "kui söögi ja alkoholivaba joogi saad kenasti telklasse sisse smuugeldada, siis alkoholi mitte. Endale meelepärase käraka võid osta poe hinnaga TELKLA POEST. Kange käraka, veini ja lahja alkoholi valik, vesi, kerget nosimist - kõike seda seal leidub. Kasvõi kastide viisi. Festivali (telkla välisel) alal on ikka festivali hinnad (ja seal telkla poe kraami tarbimine lubatud ei ole). Telkla pood on avatud iga päev kuni 22:00."
-        },
-        "mc": {
-            "title": "MEHKELDA MOTOMEESTEGA",
-            "desc": "Road Devil motoklubi muhedad mehed on Barbar Feasti koostööpartnerid ja aitavad festivali programmi veelgi kirjumaks muuta. Ole üllatusteks valmis!"
         },
         "extra": {
             "title": "LISAKS",

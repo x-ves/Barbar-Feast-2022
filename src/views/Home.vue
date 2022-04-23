@@ -73,13 +73,6 @@
             alt=""
             loading="lazy"
         /></a>
-        <a target="_blank" href="https://www.facebook.com/roaddevilmc"
-          ><img
-            class="sponsors--img"
-            src="@/assets/Road-Devil-transparent.png"
-            alt=""
-            loading="lazy"
-        /></a>
         <a target="_blank" href="https://www.facebook.com/barbarestonia"
           ><img
             class="sponsors--img"

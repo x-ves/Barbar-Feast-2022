@@ -25,7 +25,8 @@
       </template>
 
       <template v-slot:body>
-        <p class="modal--desc">{{ $t("bands." + bandName) }}</p>
+        <p class="modal--desc" v-if="bandName === 'J.M.K.E.'">{{ $t("bands.JMKE") }}</p>
+        <p class="modal--desc" v-else>{{ $t("bands." + bandName) }}</p>
       </template>
 
       <template v-slot:footer>

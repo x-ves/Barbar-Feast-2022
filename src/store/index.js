@@ -125,7 +125,7 @@ export default createStore({
         bandcampUrl: "https://hukkunudhinged.bandcamp.com/"
       },
       {
-        bandName: "KILLHALL",
+        bandName: "Killhall (FIN/EST)",
         tags: ["metal"],
         genre: "Melodic Deathrash",
         imgUrl: "/lineup/killhall.webp",

@@ -8,7 +8,6 @@
             <li class="activities__list--item" v-for="activity in activities" :key="activity"><span class="activity--name">{{ activity.name }}</span> - {{ activity.desc }}</li>
           </ul>
         </base-card>
-        <the-map></the-map>
         </section>
     </section>
 </template>
@@ -37,10 +36,6 @@ export default {
         {
           name: this.$t("activities.boat.title"),
           desc: this.$t("activities.boat.desc")
-        },
-        {
-          name: this.$t("activities.mc.title"),
-          desc: this.$t("activities.mc.desc")
         },
         {
           name: this.$t("activities.extra.title"),
