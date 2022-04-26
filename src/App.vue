@@ -11,6 +11,29 @@ import TheFooter from "./components/layout/TheFooter.vue";
 import { setDocumentLang, setDocumentTitle } from "@/util/i18n/document.js";
 
 export default {
+  metaInfo() {
+    return {
+      title: this.$t("app.title"),
+      meta: [
+        {
+          name: "description",
+          content: this.$t("app.desc")
+        },
+        {
+          property: "og:title",
+          content: this.$t("app.title")
+        },
+        {
+          property: "og:type",
+          content: "website"
+        },
+        {
+          name: "robots",
+          content: "index, follow"
+        }
+      ]
+    };
+  },
   components: {
     TheNavbar,
     TheFooter

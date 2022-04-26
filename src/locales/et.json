@@ -1,7 +1,8 @@
 {
     "buyTickets": "OSTA PILET",
     "app": {
-        "title": "Barbar Feast tuleb taas! 2022 - KOLM PÄEVA KÜTET"
+        "title": "BARBAR FEAST 2022 - KOLM PÄEVA KÜTET",
+        "desc": "Tallinnast 30km kaugusel, ürgse Viikingite küla jõekäärus leiab aset iga-aastane Eesti hevisuve suursündmus Barbar Feast! Kokku 26 bändi, 3 päeva möllu & festivalisuvi!"
     },
     "nav": {
         "home": "Avaleht",
@@ -98,18 +99,22 @@
           "Barbar Feast Battle võitja": "Siia tuleb auväärt Barbar Feast Battle võitja info"
       },
       "activities": {
-        "intro": "Lisaks elava muusika nautimisele, on Barbar Feastil võimalus enda aega mõnusalt sisustada küllaga! Toome välja mõned pakutavad tegevused:",
+        "intro": "Lisaks elava muusika nautimisele on Barbar Feastil võimalus enda aega mõnusalt sisustada küllaga:",
         "axe": {
             "title": "VISKA VEMPU",
             "desc": "vibu, ammu ja kirveloopimine (kõige kõveram käsi võidab)"
         },
         "splash": {
             "title": "PLÄRTSATUS",
-            "desc": "festivali alal on kaunis jõgi milles palava ilma korral kümmelda saad!"
+            "desc": "festivali ja uue telkla alal on kaunis jõgi milles palava ilma korral kümmelda saad!"
+        },
+        "looks": {
+            "title": "KARV LÄIKIMA & KEHA KIRJUKS",
+            "desc": "Tipptasemel teenust pakuvad Black Bela Art & Tattoo, Hairpoint juuksurisalong ja veel oma nime häbenev barber"
         },
         "market": {
             "title": "TURG",
-            "desc": "on Barbar Feasti lahutamatu osa, kus saad kaupmeestega karastava käraka, parimate roogade, peenete rõivaste ja barbar teab, mille osas veel käed lüüa… isegi juuksed saad pügatud!"
+            "desc": "on Barbar Feasti lahutamatu osa, kus saad kaupmeestega karastava käraka, parimate roogade, peenete rõivaste ja barbar teab, mille osas veel käed lüüa…"
         },
         "boat": {
             "title": "VIIKINGILAEV",

@@ -5,6 +5,7 @@ import router from './router';
 import store from './store';
 import { createI18n } from "vue-i18n";
 import loadLocaleMessages from "./i18n";
+import { createMetaManager, plugin as metaPlugin} from 'vue-meta'
 
 import BaseButton from "./components/UI/BaseButton.vue";
 import BaseCard from "./components/UI/BaseCard.vue";
@@ -25,11 +26,15 @@ const i18n = createI18n({
     messages: loadLocaleMessages()
 })
 
+const metaManager = createMetaManager();
+
 const app = createApp(App);
 
 app.use(store);
 app.use(router);
 app.use(i18n);
+app.use(metaManager);
+app.use(metaPlugin);
 
 app.component("base-button", BaseButton);
 app.component("base-card", BaseCard);

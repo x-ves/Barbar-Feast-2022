@@ -26,6 +26,10 @@ export default {
           desc: this.$t("activities.tentshop.desc")
         },
         {
+          name: this.$t("activities.looks.title"),
+          desc: this.$t("activities.looks.desc")
+        },
+        {
           name: this.$t("activities.splash.title"),
           desc: this.$t("activities.splash.desc")
         },
