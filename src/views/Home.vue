@@ -80,6 +80,13 @@
             alt=""
             loading="lazy"
         /></a>
+        <a target="_blank" href="https://kabliku.com/"
+          ><img
+            class="sponsors--img"
+            src="@/assets/Käbliku-transparent.png"
+            alt=""
+            loading="lazy"
+        /></a>
       </div>
     </section>
   </section>
@@ -236,7 +243,7 @@ export default {
 }
 
 #feastPoster {
-  width: 100%;
+  width: 100vw;
 }
 
 @media only screen and (min-width: 768px) {
@@ -278,7 +285,7 @@ export default {
 }
 
 #feastPoster {
-  width: 50%;
+  width: 50vw;
 }
 
 .location {
