@@ -17,6 +17,10 @@
       flex-direction: column;
       align-items: center;
       padding: 0.5rem;
+
+      p {
+        width: 95%;
+      }
     }
     img {
         min-width: 18rem;

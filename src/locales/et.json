@@ -42,15 +42,15 @@
     },
     "bus": {
         "title": "Festivalibuss",
-        "desc": "FESTIVALIKÜLASTAJAID SÕIDUTAB LIINIL TLN-VK-TLN METAL TRAVEL AGENCY (täpne info peatselt)"
+        "desc": "HOP ON, FUCK OFF! <br> Just nii! Ka sel aastal saab feAstivalile bussiga tulla! <br><br> <a class='highlighted-link' href='https://metaltravel.net/et/' target='_blank'>METAL TRAVEL AGENCY</a> stardib Rockiklubi Barbar eest 07.07 kell 17:00. <br> Tagasi tsivilisatsiooni lahkub buss Viikingite Külast 10.07 kell 12:00. <br><br> Pilet osta bussijuhilt kohapeal, sularahas, 5€ inimene (ette ostma ei pea). Vajadusel teeb buss mitu tiiru."
     },
     "parking": {
         "title": "Parkimine",
-        "desc": "Asub sellel aastal feAstivali vahetus läheduses ja ruumi on küllaga. Ühe auto parkimine kogu ürituse ajaks maksab 5€/auto. Lisainfo tulekul!"
+        "desc": "Asub sellel aastal feAstivali vahetus läheduses ja ruumi on küllaga. <br><br> Ühe auto parkimine kogu ürituse ajaks maksab 5€/auto. <br> Vagunelamute parkimine on ka igati ok, maksab 10€/masin."
     },
     "camping": {
         "title": "Telkimine",
-        "desc": "Sel aastal on feAstivalil lausa 2 telklat! Eelmise aasta telkla muutub VIP telklaks (pääsme saad lunastada ostes Barbarist fännipass, ticketerist VIP pass või lootma sellele, et kohapeal on veel ruumi) ning viimase täitumisel on pea piiramatult ruumi uues jõeäärses telklas. Need külastajad kelle pileti juurde telkla pääse ei kuulu saavad selle lunastada kohapeal, 5€/inimene."
+        "desc": "Sel aastal on feAstivalil lausa 2 telklat! <br><br> Eelmise aasta telkla muutub VIP telklaks (pääsme saad lunastada ostes Barbarist fännipass, ticketerist VIP pass või lootma sellele, et kohapeal on veel ruumi) ning viimase täitumisel on pea piiramatult ruumi uues JÕE telklas. <br><br> Need külastajad kelle pileti juurde telkla pääse ei kuulu saavad selle lunastada kohapeal, 5€/inimene."
     },
     "faq": {
         "title": "Korduma kippuvad küsimused",

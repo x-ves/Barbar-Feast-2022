@@ -39,17 +39,17 @@
       <the-transport-card>
         <template v-slot:img><img class="transportCard--img" src="/festivalibuss.webp" alt="Metal Travel Agency bus"></template>
         <template v-slot:title>{{ $t("bus.title") }}</template>
-        <template v-slot:desc>{{ $t("bus.desc") }}</template>
+        <template v-slot:desc><span v-html="this.$t('bus.desc')"></span></template>
       </the-transport-card>
       <the-transport-card>
         <template v-slot:img><img class="transportCard--img" src="/telkla.webp" alt=""></template>
         <template v-slot:title>{{ $t("camping.title") }}</template>
-        <template v-slot:desc>{{ $t("camping.desc") }}</template>
+        <template v-slot:desc><span v-html="this.$t('camping.desc')"></span></template>
       </the-transport-card>
       <the-transport-card id="parkingCard">
         <template v-slot:img><img class="transportCard--img" src="/parkla.webp" alt=""></template>
         <template v-slot:title>{{ $t("parking.title") }}</template>
-        <template v-slot:desc>{{ $t("parking.desc") }}</template>
+        <template v-slot:desc><span v-html="this.$t('parking.desc')"></span></template>
       </the-transport-card>
     </section>
     <section class="faq">
@@ -139,6 +139,7 @@ export default {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   transition: 0.3s background;
+  text-align: center;
 }
 
 .location {
@@ -148,6 +149,7 @@ export default {
   flex-direction: column;
   align-items: center;
   background: radial-gradient($main-background-color, $secondary-background-color);
+  text-align: center;
 
   a {
     color: $barbar-red;
@@ -227,6 +229,13 @@ export default {
   display: flex;
   flex-direction: column;
 
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   &--title {
       color: $main-text-color;
       margin: 1rem;
@@ -239,6 +248,11 @@ export default {
   &--img {
     height: 10rem;
     margin: 1rem;
+    transition: 0.3s all;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 
@@ -267,6 +281,12 @@ export default {
       width: 93%;
     }
 }
+
+  .sponsors {
+    &__wrapper {
+      flex-direction: row;
+    }
+  }
 }
 
 
@@ -319,4 +339,18 @@ export default {
   }
 }
 }
+</style>
+
+<style lang="scss">
+.highlighted-link {
+    color: $barbar-red;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+  .highlighted-link:hover {
+      text-decoration: underline;
+      color: $barbar-red;
+  }
+
 </style>

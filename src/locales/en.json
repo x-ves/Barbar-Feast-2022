@@ -1,7 +1,7 @@
 {
     "buyTickets": "BUY A TICKET",
     "app": {
-        "title": "Barbar Feast comes again! 2022 - THREE DAYS OF HEAT"
+        "title": "BARBAR FEAST 2022 - THREE DAYS OF HEAT"
     },
     "nav": {
         "home": "Home",
@@ -22,7 +22,7 @@
         "mail": "E-mail"
     },
     "counter": {
-        "gates": "The gates open in",
+        "gates": "The gates will open",
         "days": "days",
         "hours": "hours",
         "minutes": "minutes",
@@ -33,34 +33,34 @@
     },
     "location": {
         "title": "Location & info",
-        "desc": "BARBAR FEAST 2022 will be held in picturesque Viking Village, only half an hour drive from Tallinn. Three days of this rockin' festival will bring you 30 best of the best local rock & metal acts, 2 stages (one in a wooden fort (!) the other next to a primal river), chillin' in the tenting area, refreshing swims, endless parties at the festival market area and many other grand activites + SUMMER, FRIENDS, LIVE MUSIC /../. YES PLEASE!",
-        "event": "Barbar Feast 2022 Facebook event",
+        "desc": "BARBAR FEAST 2022 will be held in magical Viking Village, only a half hour drive from Estonias capital, Tallinn. Three days of rockin' & rollin' will bring you 27 best of the best local rock, folk & metal bands from Estonia and Finland. The festival has 2 stages. One next to a mystical river, another one in an ancient wooden fort. YES YOU CAN! - swim in the river, party hard in the tenting area, find band merch on our feAstival market and many more activites. SUMMER, FRIENDS, LIVE MUSIC /../. YES PLEASE!",
+        "event": "Find Barbar Feast 2022 Facebook event",
         "eventlink": "here",
-        "more": "For more info about Vikings Village check out their",
+        "more": "More info about Viking Village on their",
         "link": "website"
     },
     "bus": {
         "title": "Festival bus",
-        "desc": ""
+        "desc": "HOP ON, FUCK OFF! <br> That's right! Also on this year you can bus your way to the feAstival! <br><br> <a class='highlighted-link' href='https://metaltravel.net/et/' target='_blank'>METAL TRAVEL AGENCY</a> starts the trip in front of Rockclub Barbar (Rävala 8, Tallinn) 07.07, 17:00. <br> The bus will head back from the Viking Village to the civilisation (Tallinn) 10.07, 12:00. <br><br> The tickets (5€ per person) can be bought in cash from the bus. If need be then the bus will do several trips."
     },
     "parking": {
         "title": "Parking",
-        "desc": "Parking information coming soon! (We'll be opening a big new camping ground x parking lot)"
+        "desc": "Situated 200m from the main entrance of the feAstival area and right next to the RIVER tenting area. Just drive here and then follow the signs. <br><br> You can also easily park your caravans there. <br><br> Parking costs 5€ per car and 10€ per caravan for the whole event."
     },
     "camping": {
         "title": "Camping",
-        "desc": "This year our feAstival presents 2 camping grounds! Last year's camping ground transforms into the new VIP camping ground (entrance granted by the fan pass bought from Barbar Rockclub, the VIP pass from Ticketer or by being fast on spot when there's room left for you). If the VIP camping ground is full, the space won't run out in the new camping ground right next to the river.  Those whose tickets do not include a spot in either of these camping grounds, can buy a camping pass separately for 5€/person."
+        "desc": "This year we have 2 tent areas! <br><br> VIP tent area is in the center of the festival and you can get access there by buying the festival 3-day fan ticket from Rockclub Barbar OR hope there is room left whan you arrive. <br> When the VIP tent area is full then there is plenty of space in the RIVER tent a little further away. <br><br> Entrance on spot costs 5€ per person in both areas. <br> Cash only."
     },
     "faq": {
         "title": "Frequently Asked Questions",
         "q1": "Where does the festival take place?",
         "a1": "BARBAR FEAST 2022 will be held in picturesque Viking Village, only half an hour drive from Tallinn.",
         "q2": "How do I get there?",
-        "a2": "For those who come by car or motorcycle, we have links with directions above - the destination is Viikingite küla, Saula, 75117 Harju maakond. You'll also find information about the parking lots above. <br><br> There will also be a Festival Bus (named \"Hop On Fuck Off\") departing from in front of Rockclub Barbar (Rävala pst 8, 10145 Tallinn). Find more info about the bus right above!",
+        "a2": "For those who come by car or motorcycle - the destination is Viikingite küla, Saula, 75117 Harju maakond. You'll also find information about the parking lots above. <br><br> There will also be a Festival Bus (named \"Hop On Fuck Off\") departing from in front of Rockclub Barbar (Rävala pst 8, 10145 Tallinn). More info about the bus above.",
         "q3": "Where can I sleep?",
-        "a3": "While the Viking Village offers all kinds of experiential accommodation all year round, all spots have been filled for now. Nevertheless we welcome you to our camping grounds free of charge (price included in the festival pass).",
+        "a3": "While the Viking Village offers all kinds of experiential accommodation all year round, all spots have been filled for now. Nevertheless we welcome you to our camping grounds (more info above).",
         "q4": "Can I enter with my own drink?",
-        "a4": "Nope BUT we have a Festival Shop in the tenting area with good prices",
+        "a4": "Nope BUT we have a Festival Shop in the tenting area with great choices and good prices",
         "q5": "Can I pay for stuff with card?",
         "a5": "Absolutely! Still we advise you to have some cash on you aswell (bandmerch, Festival Market stuff and other stuff all in cash + electricity might go out...)",
         "q6": "Can I...?",
@@ -70,58 +70,58 @@
           "title": "Sponsors & Supporters"
       },
       "bands": {
-        "Korpiklaani (FIN)": "Korpiklaani description here",
-        "Untsakad": "",
-        "Mandoterror": "",
-        "JMKE": "",
-        "Evestus": "",
-        "Singer Vinger": "",
-        "Mört": "",
-        "DND": "",
-        "Thou Shell of Death": "",
-        "August Urr": "",
-        "Hukkunud Hinged": "",
-        "Killhall (FIN/EST)": "",
-        "Bestia": "",
-        "Deformation": "",
-        "Tankist": "",
-        "Valem Vale": "",
-        "Red Zeppelin": "",
-        "Nuclear Monarch": "",
-        "Black Royal (FIN)": "",
-        "Räpina Jack": "",
-        "Raev": "",
-        "Sky Down": "",
-        "Rattlecan Paintjob": "",
-        "Faraday": "",
-        "Fööniks": "",
-        "Barbar Feast Battle võitja": ""
+        "Korpiklaani (FIN)": "Markus from Metsatöll says that this is the world's number one folk metal band. These guys are one part folk and one part rock and roll, and the little part that is left yells in your face: “Party hard until you drop!” See ya in front of the stage, maniacs!",
+        "Untsakad": "You know those bands, that when you happen to go to a pub to drink one beer AND THEN THEY STEP ON THE STAGE and then you leave the pub totally wasted at five am in the morning, feeling that you've just been at the best party of your life. THIS is the band!",
+        "Mandoterror": "This is a band whose first record already went gold. Mandolin and dark northern thoughts do the trick, add a little rock'n'roll spirit and there you have it. The band that is truly enjoyable on the record and on the stage.",
+        "JMKE": "Estonian punk legends. You will weep in your pillow when you miss this gig, you punk!",
+        "Evestus": "Pioneers of Estonian industrial metal, back on the stage after a three year hiatus. Fresh music, dark vibes, no borders accepted!",
+        "Singer Vinger": "Punk rock legends with 40 years of experience under their belts headlining the first day of the festival. A must see!",
+        "Mört": "Winners of the best metal band of the year 2021. Raw, funny, it works!",
+        "DND": "It's so morbid that it's good. Dark, melodic, stylish.",
+        "Thou Shell of Death": "Athmospheric black metal. No compromises are made and every gig is planned in detail. Get lost in your thoughts as you enjoy this majestic wall of sound and mystical show of lights.",
+        "August Urr": "Irishly Estonian, punkish, folkish. Yes, it's a really good 7-piece folk rock band!",
+        "Hukkunud Hinged": "7 years of silence has ended. Estonian doom metal legends are back on the stage, bringing you anguish and crushing thoughtfulness.",
+        "Killhall (FIN/EST)": "Hard hitting and unstoppable. Metal from Finland and Estonia.",
+        "Bestia": "The bear warrior has been woken and he is weighing your souls. This will be a pagan rite and you're invited!",
+        "Deformation": "Hardcore punch straight into your face!",
+        "Tankist": "Avantrash! Reforming the basis of thrash metal.",
+        "Valem Vale": "This a 33 years old heavy metal band with loads of experience. Members are all old high-school friends. The band was founded by the singer, Meelis “Hainz” Hainsoo, also known from one of Estonia's most known depressive rock band Kosmikud.",
+        "Red Zeppelin": "Led Zeppelin tribute from Estonia. Quality rock classic with flaming red hair!",
+        "Nuclear Monarch": "Death & doom metal from Tallinn, Estonia. Catchy riffs and powerful metal vocals mellowing above all",
+        "Black Royal (FIN)": "Death'n'Sludge from Finland. If you are looking for a somewhat slowed-down but more wicked, evil incarnation of Motörhead.",
+        "Räpina Jack": "Two really charismatic musicians,who make you feel your best self wherever you're at. Witty lyrics, tasty rock'n'roll guitar riffs with loads of fun guaranteed!",
+        "Raev": "Yes, this is a band called RAGE and of course it plays thrash metal. And they do it f-ing good! Metal learnt from the masters, perfected by the apprentices.",
+        "Sky Down": "Female fronted heavy metal. Swords, dragons and magic of the worlds.",
+        "Rattlecan Paintjob": "Skate punk rock that kickstarts every party with no problemO.",
+        "Faraday": "Rock & roll and happy people!",
+        "Fööniks": "Rock & roll with a good flow!",
+        "Barbar Feast Battle võitja": "To Be Announced"
     },
     "activities": {
-        "intro": "BARBAR FEAST is not only about heavy music, it’s also about having a LOT of fun! Here are a few of the things going on at the festival grounds to make this weekend even more memorable for you:",
+        "intro": "BARBAR FEAST is not only about heavy music, it's also about having a LOT of fun! Here are a few of the things going on at the festival grounds to make this weekend even more memorable for you:",
       "axe": {
           "title": "GET SOME AXETION",
           "desc": "practice axe throwing & archery"
       },
       "splash": {
-          "title": "REFRESH YOURSELF",
-          "desc": "there is a beautiful river in the festival area in which you can bathe during the hot weather"
+          "title": "SPLASH!",
+          "desc": "Follow me down to the river… the mystical Pirita river is passing by the festival grounds and the River tent area. Splash in! Rock out!"
+      },
+      "looks": {
+          "title": "TATTOO, HAIRDRESSER & BARBER",
+          "desc": "Say “HELL YEAH!” after you've got a new tattoo at Black Bela Art & Tattoo's tent AND a new colour for your hair at HAIRPOINT tent OR a trimmed beard at… (well the barber is still shy, but he'll come out soon)"
       },
       "market": {
           "title": "MARKET",
-          "desc": "we have a market full of the country's best booze, mouth-watering food, fancy clothes, and hey – you can even dye your hair green :p"
+          "desc": "Barbar Feast market is where the countrys best merchants, beer brewers and foodmakers meet. Bring your purse, because they will be after every coin ye got, those devils!!"
       },
       "boat": {
-          "title": "VIKING BOAT",
-          "desc": "take a trip on a viking boat on a mystical river"
+          "title": "VIKING BOAT RIDES",
+          "desc": "head out on the river right next to the River stage. Step in the boat and AHOI!"
       },
       "tentshop": {
-          "title": "CAMPING AREA SHOP",
-          "desc": "the  camping area shop (open every day until 22:00) allows you to buy booze with regular shop prices (to be consumed in the camping area, not outside of it). <br> This is mostly because bringing your own booze to the festival grounds and the camping area is not allowed.   However, bringing your own non-alcoholic drinks and food are more than welcome (in the camping area)"
-      },
-      "mc": {
-          "title": "HAVE FUN WITH THE MC",
-          "desc": "the Road Devil MC guys will make the festival program even more magical with some cool games and whatnot – be ready for suprises!"
+          "title": "TENT AREA SHOP",
+          "desc": "all though you are allowed to bring your own food and nonalcoholic drinks to the tent areas then it is not allowed to bring your own booze. For that we have A SHOP! Actually we have 2 of those, one in each tent are. The wide selection of booze can be bought with card and cash. Shops are open each day from 10:00-22:00."
       },
       "extra": {
           "title": "EXTRA",

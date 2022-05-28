@@ -113,6 +113,7 @@ export default {
 
     &__num {
       font-size: 1.5rem;
+      text-align: center;
     }
   }
 
