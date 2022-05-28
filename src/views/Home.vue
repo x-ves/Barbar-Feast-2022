@@ -59,20 +59,6 @@
     <section class="sponsors">
       <base-title>{{ $t("sponsors.title") }}</base-title>
       <div class="sponsors__wrapper">
-        <a target="_blank" href="https://www.hbrebel.cz/en/"
-          ><img
-            class="sponsors--img"
-            src="@/assets/Rebel-transparent.png"
-            alt=""
-            loading="lazy"
-        /></a>
-        <a target="_blank" href="https://www.fireballwhisky.com/"
-          ><img
-            class="sponsors--img"
-            src="@/assets/Fireball-transparent.png"
-            alt=""
-            loading="lazy"
-        /></a>
         <a target="_blank" href="https://www.facebook.com/barbarestonia"
           ><img
             class="sponsors--img"
@@ -80,10 +66,73 @@
             alt=""
             loading="lazy"
         /></a>
+        <a target="_blank" href="https://www.fireballwhisky.com/"
+          ><img
+            class="sponsors--img"
+            src="@/assets/Fireball-transparent.webp"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a target="_blank" href="https://www.hbrebel.cz/en/"
+          ><img
+            class="sponsors--img"
+            src="@/assets/Rebel-transparent.webp"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a target="_blank" href="https://sky.ee/"
+          ><img
+            class="sponsors--img"
+            src="@/assets/SkyEE.webp"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a target="_blank" href="https://telia.ee/"
+          ><img
+            class="sponsors--img"
+            src="@/assets/Telia.webp"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a target="_blank" href="https://roaddevil.ee/"
+          ><img
+            class="sponsors--img"
+            src="@/assets/RoadDevil.webp"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a target="_blank" href="https://www.facebook.com/plakkmagazine"
+          ><img
+            class="sponsors--img"
+            src="@/assets/Pläkk.webp"
+            alt=""
+            loading="lazy"
+        /></a>
         <a target="_blank" href="https://kabliku.com/"
           ><img
             class="sponsors--img"
-            src="@/assets/Käbliku-transparent.png"
+            src="@/assets/Käbliku-transparent.webp"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a target="_blank" href="https://www.facebook.com/blackbelatattoo"
+          ><img
+            class="sponsors--img"
+            src="@/assets/BlackBela.webp"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a target="_blank" href="https://hairpoint.ee/"
+          ><img
+            class="sponsors--img"
+            src="@/assets/Hairpoint.webp"
+            alt=""
+            loading="lazy"
+        /></a>
+        <a target="_blank" href="https://www.facebook.com/barbarrockagency"
+          ><img
+            class="sponsors--img"
+            src="@/assets/BRA.webp"
             alt=""
             loading="lazy"
         /></a>
@@ -234,6 +283,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   &--title {
@@ -246,7 +296,8 @@ export default {
   }
 
   &--img {
-    height: 10rem;
+    max-height: 10rem;
+    max-width: 10rem;
     margin: 1rem;
     transition: 0.3s all;
 
@@ -285,6 +336,8 @@ export default {
   .sponsors {
     &__wrapper {
       flex-direction: row;
+      width: 85%;
+      margin: 0 auto;
     }
   }
 }

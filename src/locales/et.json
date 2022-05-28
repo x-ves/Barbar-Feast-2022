@@ -7,12 +7,21 @@
     "nav": {
         "home": "Avaleht",
         "lineup": "Bändid",
+        "schedule": "Kava",
         "info": "Lisainfo",
         "tickets": "Piletid"
     },
     "lineup": {
         "title": "Bändid",
         "filter": "Filtrid"
+    },
+    "schedule": {
+        "thursday": "neljapäev, 07.07",
+        "thursdayTitle": "1. PÄEV",
+        "friday": "reede, 08.07",
+        "fridayTitle": "2. PÄEV",
+        "saturday": "laupäev, 09.07",
+        "saturdayTitle": "3. PÄEV"
     },
     "info": {
         "title": "Lisainfo"

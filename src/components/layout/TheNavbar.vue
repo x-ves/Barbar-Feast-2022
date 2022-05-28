@@ -5,6 +5,7 @@
         <div class="nav--links" @click="toggleMenu">
             <router-link class="nav--link" to="/">{{ $t("nav.home") }}</router-link>
             <router-link class="nav--link" to="/lineup">{{ $t("nav.lineup") }}</router-link>
+            <router-link class="nav--link" to="/schedule">{{ $t("nav.schedule") }}</router-link>
             <router-link class="nav--link" to="/info">{{ $t("nav.info") }}</router-link>
             <base-button class="nav--link" urlTo="https://www.ticketer.ee/barbar-feast-2022">{{ $t("nav.tickets") }}</base-button>
         </div>

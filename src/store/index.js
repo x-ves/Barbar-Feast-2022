@@ -28,7 +28,7 @@ export default createStore({
       {
         bandName: "Mandoterror",
         tags: ["rock"],
-        genre: "Mandoliin ja Põhjamaine Raskemeelsus",
+        genre: "Folk Rock",
         imgUrl: "/lineup-photos/mandoterror.webp",
         vidUrl: "https://www.youtube-nocookie.com/embed/X7H9jHsYRMM",
         siteUrl: "",
@@ -215,7 +215,7 @@ export default createStore({
       {
         bandName: "Räpina Jack",
         tags: ["rock"],
-        genre: "Värskendav Briis Kodumaises Muusikataevas",
+        genre: "Country Blues",
         imgUrl: "/lineup-photos/r2pinajack.webp",
         vidUrl: "https://www.youtube-nocookie.com/embed/SPaEonRi5Fw",
         siteUrl: "",
