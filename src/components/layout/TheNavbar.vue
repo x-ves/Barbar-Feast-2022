@@ -3,10 +3,10 @@
         <div class="nav--backdrop" v-if="menuOpen" @click="toggleMenu"></div>
         <locale-switcher class="nav--localeSwitcher" @change="$emit('localeChange', $event)"></locale-switcher>
         <div class="nav--links" @click="toggleMenu">
-            <localized-link class="nav--link" to="/">{{ $t("nav.home") }}</localized-link>
-            <localized-link class="nav--link" to="/lineup">{{ $t("nav.lineup") }}</localized-link>
-            <localized-link class="nav--link" to="/schedule">{{ $t("nav.schedule") }}</localized-link>
-            <localized-link class="nav--link" to="/info">{{ $t("nav.info") }}</localized-link>
+            <router-link class="nav--link" to="/">{{ $t("nav.home") }}</router-link>
+            <router-link class="nav--link" to="/lineup">{{ $t("nav.lineup") }}</router-link>
+            <router-link class="nav--link" to="/schedule">{{ $t("nav.schedule") }}</router-link>
+            <router-link class="nav--link" to="/info">{{ $t("nav.info") }}</router-link>
             <base-button class="nav--link" urlTo="https://www.ticketer.ee/barbar-feast-2022">{{ $t("nav.tickets") }}</base-button>
         </div>
         <span class="nav--icon" @click="toggleMenu">
@@ -17,10 +17,9 @@
 
 <script>
 import LocaleSwitcher from "../navbar/LocaleSwitcher.vue";
-import LocalizedLink from "../navbar/LocalizedLink.vue";
 
 export default {
-    components: { LocaleSwitcher, LocalizedLink },
+    components: { LocaleSwitcher },
     data() {
         return {
             menuOpen: false
