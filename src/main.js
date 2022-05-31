@@ -3,8 +3,8 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
-import { createI18n } from "vue-i18n";
-import loadLocaleMessages from "./i18n";
+/* import { createI18n } from "vue-i18n"; */
+import i18n from "./i18n";
 import { createMetaManager, plugin as metaPlugin} from 'vue-meta'
 
 import BaseButton from "./components/UI/BaseButton.vue";
@@ -20,19 +20,19 @@ import { faCalendarCheck, faBars, faTimes, faLongArrowAltLeft, faHome } from "@f
 
 library.add(faFacebookSquare, faInstagram, faBandcamp, faSpotify, faCalendarCheck, faBars, faTimes, faLongArrowAltLeft, faHome);
 
-const i18n = createI18n({
+/* const i18n = createI18n({
     locale: process.env.VUE_APP_I18N_LOCALE || "et",
     fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || "en",
     messages: loadLocaleMessages()
-})
+}) */
 
 const metaManager = createMetaManager();
 
 const app = createApp(App);
 
+app.use(i18n);
 app.use(store);
 app.use(router);
-app.use(i18n);
 app.use(metaManager);
 app.use(metaPlugin);
 

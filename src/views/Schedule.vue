@@ -1,6 +1,5 @@
 <template>
   <div class="schedule">
-    <div class="border">
       <base-title>{{ $t("nav.schedule") }}</base-title>
       <!--     <div class="construction">
       <h1>{{ $t("content.construction") }}</h1>
@@ -108,7 +107,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -169,7 +167,7 @@ export default {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 auto;
+    margin: 1rem auto;
     width: 95%;
 
     &--card {
