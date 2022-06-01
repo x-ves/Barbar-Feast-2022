@@ -8,6 +8,22 @@ const routes = [
     redirect: `/${i18n.global.locale}`
   },
   {
+    path: "/home",
+    redirect: `/${i18n.global.locale}/home`
+  },
+  {
+    path: "/lineup",
+    redirect: `/${i18n.global.locale}/lineup`
+  },
+  {
+    path: "/schedule",
+    redirect: `/${i18n.global.locale}/schedule`
+  },
+  {
+    path: "/info",
+    redirect: `/${i18n.global.locale}/info`
+  },
+  {
     path: "/:locale",
     component: () =>
     import(/* webpackChunkName: "root" */ "./Root.vue"),
