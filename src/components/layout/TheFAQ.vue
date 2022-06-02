@@ -24,6 +24,10 @@
       <summary class="FAQ__options--question">{{ $t("faq.q6") }}</summary>
       <p class="FAQ__options--answer">{{ $t("faq.a6") }}</p>
     </details>
+    <details class="FAQ__options">
+      <summary class="FAQ__options--question">{{ $t("faq.q7") }}</summary>
+      <p class="FAQ__options--answer">{{ $t("faq.a7") }}</p>
+    </details>
   </base-card>
 </template>
 
