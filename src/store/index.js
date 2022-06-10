@@ -279,14 +279,25 @@ export default createStore({
         bandcampUrl: ""
       },
       {
-        bandName: "Barbar Feast Battle võitja",
-        tags: ["punk"],
-        genre: "TBA",
-        imgUrl: "/lineup-photos/tba.webp",
-        vidUrl: "",
+        bandName: "Must Bass Läks Üle Tee",
+        tags: ["rock"],
+        genre: "Folk Rock",
+        imgUrl: "/lineup-photos/mustbass.webp",
+        vidUrl: "https://www.youtube-nocookie.com/embed/W_O6AFYedJE",
+        siteUrl: "https://mustbass.ee/",
+        facebookUrl: "https://www.facebook.com/mustbassyletee",
+        spotifyUrl: "https://open.spotify.com/artist/6Ohq7PEXuk4V7TC0nPTmhO",
+        bandcampUrl: ""
+      },
+      {
+        bandName: "Stone Throne",
+        tags: ["metal", "rock"],
+        genre: "Metal / Rock",
+        imgUrl: "/lineup-photos/stonethrone.webp",
+        vidUrl: "https://www.youtube-nocookie.com/embed/QCF8ZcRoBSc",
         siteUrl: "",
-        facebookUrl: "",
-        spotifyUrl: "",
+        facebookUrl: "https://www.facebook.com/stonethrqne/",
+        spotifyUrl: "https://open.spotify.com/artist/0zhamC9giQDIx4LwrETBVt",
         bandcampUrl: ""
       },
     ]

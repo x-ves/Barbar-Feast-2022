@@ -21,7 +21,8 @@
         "friday": "reede, 08.07",
         "fridayTitle": "2. PÄEV",
         "saturday": "laupäev, 09.07",
-        "saturdayTitle": "3. PÄEV"
+        "saturdayTitle": "3. PÄEV",
+        "winner": "Barbar Feast Battle Võitja"
     },
     "info": {
         "title": "Lisainfo"
@@ -107,7 +108,8 @@
           "Rattlecan Paintjob": "Meeliergutav rulapunkrock Kilulinnast. Tõmbab käima iga suvise peo 1-2-3!",
           "Faraday": "Ehe Eesti rockiklassika kaasaaegsel kujul!",
           "Fööniks": "Hea minekuga eestikeelne rokkbänd, mida juhib õigel teel ei keegi muu, kui Elmar Liitmaa",
-          "Barbar Feast Battle võitja": "Siia tuleb auväärt Barbar Feast Battle võitja info"
+          "Must Bass Läks Üle Tee": "Need kaunid Emajõe ööbikud mängivad kurjavõitu rahvamuusikat. Legendaarselt suur inimhord (neid on laval 8) manab publiku ette romantilisi folk rocki toone ja sobib Pirita jõekääru valatult. Lõbus elamus on garanteeritud!",
+          "Stone Throne": "Kaks tüüpi litivad metalit paremini, kui sinu viieliikmeline bänd seda eales oskaks teha. Tummised riffid segatuna puhta vokaaliga (sekka mõned karjed, et sinu lapsi ehmatada)."
       },
       "activities": {
         "intro": "Lisaks elava muusika nautimisele on Barbar Feastil võimalus enda aega mõnusalt sisustada küllaga:",

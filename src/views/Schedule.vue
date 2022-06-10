@@ -35,7 +35,7 @@
           <h3>{{ $t("schedule.fridayTitle") }}</h3>
           <ul>
             <li>
-              <span class="bluetext">16:00</span> BARBAR FEAST BATTLE VÕITJA
+              <span class="bluetext">16:00</span> STONE THRONE 🏆
             </li>
             <li>
               <span class="bluetext">17:00</span> RAEV
@@ -71,7 +71,7 @@
               <span class="bluetext">13:00</span> RÄPINA JACK
             </li>
             <li>
-              <span class="bluetext">14:00</span> BARBAR FEAST BATTLE VÕITJA
+              <span class="bluetext">14:00</span> MUST BASS LÄKS ÜLE TEE 🏆
             </li>
             <li>
               <span class="bluetext">15:00</span> NUCLEAR MONARCH
@@ -106,6 +106,7 @@
           </ul>
         </div>
       </div>
+      <span id="battle-winner">🏆 - {{ $t("schedule.winner") }}</span>
     </div>
 </template>
 
@@ -137,6 +138,12 @@ export default {
   }
 }
 
+#battle-winner {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
 .construction {
   text-align: center;
   display: flex;
@@ -159,7 +166,6 @@ export default {
 .schedule {
   padding: 3rem 0;
   background: url("/noise.png");
-  width: 80%;
 
   &__content {
     text-align: center;
@@ -214,6 +220,8 @@ export default {
   }
 
   .schedule {
+    width: 80%;
+
     img {
       min-width: fit-content;
     }
