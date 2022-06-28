@@ -87,13 +87,6 @@
             alt=""
             loading="lazy"
         /></a>
-        <a target="_blank" href="https://telia.ee/"
-          ><img
-            class="sponsors--img"
-            src="@/assets/Telia.webp"
-            alt=""
-            loading="lazy"
-        /></a>
         <a target="_blank" href="https://roaddevil.ee/"
           ><img
             class="sponsors--img"
