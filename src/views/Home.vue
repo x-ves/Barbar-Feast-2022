@@ -73,6 +73,13 @@
             alt=""
             loading="lazy"
         /></a>
+        <a target="_blank" href="https://www.jackdaniels.com/"
+          ><img
+            class="sponsors--img"
+            src="@/assets/JackDaniels.webp"
+            alt=""
+            loading="lazy"
+        /></a>
         <a target="_blank" href="https://www.hbrebel.cz/en/"
           ><img
             class="sponsors--img"
