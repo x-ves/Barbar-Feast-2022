@@ -1,5 +1,6 @@
 <template>
   <TheNavbar />
+  <the-thanks-modal></the-thanks-modal>
   <router-view />
   <TheFooter />
 </template>
@@ -7,6 +8,7 @@
 <script>
 import TheNavbar from "./components/layout/TheNavbar.vue";
 import TheFooter from "./components/layout/TheFooter.vue";
+import TheThanksModal from "./components/layout/TheThanksModal.vue";
 
 import { setDocumentLang, setDocumentTitle } from "@/util/i18n/document.js";
 
@@ -36,7 +38,8 @@ export default {
   },
   components: {
     TheNavbar,
-    TheFooter
+    TheFooter,
+    TheThanksModal
   },
   mounted() {
     this.$watch("$i18n.locale", (newLocale, oldLocale) => {

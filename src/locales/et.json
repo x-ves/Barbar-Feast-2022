@@ -75,7 +75,7 @@
         "q5": "Kas kaardiga saab maksta?",
         "a5": "Absoluutselt, kuid sellegipoolest soovitame ka sularaha kaasa võtta (bändide merch, turul vinge kraam müügil, elekter läheb ära...)",
         "q6": "Kas ühe päeva passe saab osta?",
-        "a6": "Vabalt! Ühe päeva passid on saadaval kohapeal, sularahas 40€ (neljapäev), 45€ (reede), 50€ (laupäev)",
+        "a6": "Vabalt! Ühe päeva passid on saadaval kohapeal, sularahas 40€ (neljapäev), 45€ (reede), 50€ (laupäev). Festivalipass kohapeal, sularahas 65€.",
         "q7": "Kas ma võin...?",
         "a7": "Kui see pole vastuolus Viikingite küla kodukorraga, Eesti Vabariigi põhiseadusega ega riku sind ümbritsevate inimeste ja loomade tervist, vara ega heaolu, siis tõenäoliselt küll. Kui aga mõtteis on miskit pöörast, palun anna meile sellest varakult ette teada."
       },
@@ -141,5 +141,9 @@
             "title": "LISAKS",
             "desc": "spontaansed mõõgavõitlused, jooma & söömaorgiad ning, mis peamine – hea muusika, sõbrad & festivalisuvi!"
         }
+    },
+    "thx": {
+        "header": "Kniks ja kraaps!",
+        "content": "Barbar Feast on selleks aastaks läbi saanud. Rockiklubi Barbar tänab siiralt kõiki kohalolnuid ja läbiastunuid! <br><br> Mälestuse värskena hoidmiseks leiad festivali pildigaleriid <a href='https://www.facebook.com/events/330945968527636/' target='_blank' style='color:rgb(220,53,19)'>siit</a> <br><br> Infot meie teiste ürituste kohta <a href='https://www.facebook.com/barbarestonia' target='_blank' style='color:rgb(220,53,19)'>Facebookis</a>"
     }
 }

@@ -68,16 +68,13 @@
           <h3>{{ $t("schedule.saturdayTitle") }}</h3>
           <ul>
             <li>
-              <span class="bluetext">13:00</span> RÄPINA JACK
-            </li>
-            <li>
               <span class="bluetext">14:00</span> MUST BASS LÄKS ÜLE TEE 🏆
             </li>
             <li>
-              <span class="bluetext">15:00</span> NUCLEAR MONARCH
+              <span class="bluetext">15:00</span> RÄPINA JACK
             </li>
             <li>
-              <span class="bluetext">16:00</span> DEFORMATION
+              <span class="bluetext">16:00</span> NUCLEAR MONARCH
             </li>
             <li>
               <span class="bluetext">17:00</span> RED ZEPPELIN (LED ZEPPELIN TRIBUTE)
